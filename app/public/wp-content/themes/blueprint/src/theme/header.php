@@ -26,7 +26,8 @@ wp_head();
 if ( ! empty( $options['google-analytics'] ) ) {
 	echo $options['google-analytics'];}
 ?>
-<link rel="stylesheet" href="https://use.typekit.net/xog6foy.css">
+<link rel="stylesheet" href="https://use.typekit.net/kzf3fwy.css">
+<!-- <link rel="stylesheet" href="https://use.typekit.net/xog6foy.css"> -->
 <!-- <script src="https://use.typekit.net/kzf3fwy.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script> -->
 <?php
