@@ -2,14 +2,44 @@
 
 Wordpress theme for Walsh Workspace. Based on the RPG Blueprint Theme.
 
+## Site Notes
+
+This site should be hidden from the search index. Please make sure the check box is checked under WordPress/Settings/Reading/Search Engine Visability
+
+X Discourage search engines from indexing this site
+
+### FONTS
+
+#### Domaine Display Medium - Stored in
+
+```
+src/fonts/DomaineDisplay
+```
+
+
+#### Museo-sans - Adobe Type Kit Font
+
+If you do not do this the fonts will stop working after a month or so. Because it is currently tied to my account and I will remove it. So you need to swap it out with your Adobe Typekit API Key.
+
+Login in with SFTP and edit the following file.
+
+```
+app/public/wp-content/themes/blueprint/src/theme/header.php
+
+```
+
+Edit line #29
+
+```
+<link rel="stylesheet" href="https://use.typekit.net/xog6foy.css">
+```
+You need to replace 'xog6foy.css' with the Republic Property Group Adobe Typekit API key. It think it is 'kzf3fwy.css'.
+
+
+
 ## Prerequisites
 
 The following required Plugins are listed below:
-
-* [ActiveCampaign - Forms, Site Tracking, Live Chat](https://wordpress.org/plugins/activecampaign-subscription-forms/)<br>
-Our WordPress plugin makes it easy to insert ActiveCampaign forms into your posts and pages. How to activate and install [view instructions](https://help.activecampaign.com/hc/en-us/articles/222475388-WordPress-plugin)<br>
-
-* [Elfsight Instagram Feed CC](https://elfsight.com/instagram-feed-instashow/).<br> Instagram feed. Requires License
 
 * [Classic Editor](https://wordpress.org/plugins/classic-editor/).<br>
 This plugin hides all functionality available in the new Block Editor (“Gutenberg”) so that the Page Builder is compatible. Go to settings and make sure Default editor for all users is set to "Classic Editor"
@@ -81,7 +111,7 @@ npm install
 Open the wpgulp.config.js and make sure the projectURL is set accordingly
 
 ```
-projectURL: 'walshworkspace.local',
+projectURL: 'walshtelehealth.local',
 ```
 
 ### STEP #5
@@ -124,13 +154,200 @@ Afterwards make sure you clean the WP Engine Cache.
 
 ## Other Notes
 
-* After pushing from Staging to Production **make sure the Discourage search engines** from indexing this site check box is not checked on production. You can find this setting under WordPress Settings/Reading/Search Engine Visibility.
+NOTES:
 
-* The folder **print-server** needs to be added to the root directory of the live website. This code is for their internal print server.
+This site does not require much functionality. In the future if you are adding elements to the site. You will need to style sheets as that functionality is needed. You will need to do this before using elements in visual builder.
 
-```shell
-├── print-server
-│   
-│
-├── walshworkspace.com
-```
+By enabling the style scss stylesheets there will be basic styles. But the styles will not match the current brand style in come cases.  So you will need to style and adjust them accordingly.
+
+
+You can enable them by uncommenting them in the following locations:
+src/scss
+
+*SCSS Directory Location*
+src/scss/style.scss
+
+Below are the styles that are disabled by commenting them out. “//“ To make them active again simply remove the “//“ with in the appropriate file.
+
+*Animation*
+src/scss/animation/__animation-dir.scss
+
+*Blog*
+src/scss /blog/__blog.scss
+// @import "blog-and-pagination";
+// @import "love";
+
+Comments Styles
+src/scss/comment/__comment-dir.scss
+// @import "comments";
+
+*Find A Home*
+src/scss /find-a-home/__find-a-home.scss
+// @import "find-a-home-map";
+
+*Fonts*
+src/scss/fonts/__fonts-dir.scss
+// @import "typekit";
+@import "fonts";
+@import "font-icomoon";
+@import "font-linecons";
+@import "font-steadysets";
+
+*Footer*
+__footer-dir.scss
+// @import "footer-elements";
+
+*Forms*
+src/scss/forms/__forms-dir.scss
+@import "general-forms";
+@import "minimal-forms";
+@import "selects";
+@import "tables";
+@import "minimal-icons";
+
+*Global*
+src/scss/global/__global-dir.scss
+@import "global";
+@import "type";
+
+*Header*
+src/scss/header/__header-dir.scss
+@import "header";
+
+*Main*
+src/scss/main-content/__main-content-dir.scss
+
+*Mixins*
+src/scss/mixins/__mixins-dir.scss
+@import "fluid-type";
+@import "font-family"; // @include din-2014-300;
+@import "font-weight"; // @include font-weight(100);
+@import "color-modifiers";
+@import "transition"; // @include transition(opacity .45s cubic-bezier(0.25,1,0.33,1));
+@import "font-smoothing"; // @include fontSmoothing();
+@import "spacer"; // @include fontSmoothing();
+@import "mq";
+@import "link-styles";
+
+*Page*
+src/scss/page/__page-dir.scss
+@import "page-header";
+@import "single";
+@import "page-header-bg";
+// @import "social-sharing-fixed";
+// @import "particle-style";
+// @import "pagination-navigation";
+// @import "header-text-effects";
+@import "scroll-down";
+@import "full-screen-header";
+// @import "sharing";
+@import "section-down";
+// @import "blog-port-next-prev";
+@import "scroll-to-top";
+// @import "social-sharing";
+// @import "single-proj-port";
+// @import "portfolio";
+// @import "team-member";
+// @import "fancy-box";
+// @import "flip-box";
+// @import "category-grid";
+// @import "contact";
+// @import "google-map";
+@import "masonry-items";
+@import "post-area";
+
+*Plugin Related*
+src/scss /plugin-related/__plugin-related-dir.scss
+@import "superfish";
+@import "mejs";
+@import "header-outer";
+// @import "tilt-button";
+@import "transparent-header";
+// @import "flickity";
+// @import "popular-posts";
+// @import "parallax-image-grid";
+// @import "sticky-submenu";
+// @import "food-menu-items";
+// @import "video-light-box";
+// @import "image-hotspots";
+@import "video-bg";
+// @import "mouse-parallax";
+// @import "flexslider";
+@import "media-element-styles";
+@import "isotope";
+// @import "carouFredSel";
+// @import "carousel";
+// @import "blog-recent";
+// @import "owl-carousel";
+@import "scrollbar";
+
+*Shortcode*
+src/scss /shortcode/__shortcode.scss
+@import "icons";
+@import "animated-title";
+// @import "milestone";
+// @import "cta";
+@import "horizontal-list";
+@import "fancy-ul";
+@import "icon-list";
+// @import "morphing-outline";
+// @import "split-heading";
+// @import "highlighted-text";
+// @import "bar-graph";
+// @import "testimonial-slider";
+@import "tabbed";
+@import "image-with-animation";
+@import "cascading-images";
+@import "toggle";
+@import "full-width-section";
+// @import "shape-divider";
+// @import "clients";
+// @import "pricing-tables";
+@import "footer-styles";
+@import "slide-out-widget";
+// @import "flickr-widget";
+// @import "calendar-widget";
+// @import "search-widget";
+@import "footer-widgets";
+// @import "call-to-action";
+
+*Side Bar*
+src/scss/sidebar/__sidebar-dir.scss
+// @import "sidebar.scss";
+
+*Style-guide*
+src/scss /style-guide/__style-guide.scss
+// @import "table";
+// @import "color-swatches";
+// @import "shadow-type";
+// @import "spacing-scales";
+
+*Telehealth*
+src/scss/telehealth/__telehealth.scss
+
+
+*Theme Base Styles*
+src/scss/theme-base/__theme-base-dir.scss
+@import "browser";
+@import "colors";
+@import "utility";
+// @import "blockquote";
+// @import "code";
+@import "lists";
+@import "font-weight";
+// @import "notice-banner";
+// @import "tag";
+@import "text-modifiers";
+// @import "width";
+@import "utility";
+// @import "spacing";
+// @import "shadows";
+
+*Variables*
+src/scss/variables/__variables.scss
+@import "colors";
+@import "color-map";
+@import "fonts";
+@import "forms";
+@import "spacing";
+// @import "widths";
