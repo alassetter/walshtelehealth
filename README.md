@@ -164,7 +164,7 @@ By enabling the style scss stylesheets there will be basic styles. But the style
 You can enable them by uncommenting them in the following locations:
 src/scss
 
-*SCSS Directory Location*
+**SCSS Directory Location**
 
 ```
 src/scss/style.scss
@@ -173,31 +173,31 @@ src/scss/style.scss
 Below are the styles that are disabled by commenting them out. “//“ To make them active again simply remove the “//“ with in the appropriate file.
 
 
-*Animation*
+**Animation**
 ```
 src/scss/animation/__animation-dir.scss
 ```
 
-*Blog*
+**Blog**
 ```
 src/scss /blog/__blog.scss
 // @import "blog-and-pagination";
 // @import "love";
 ```
 
-*Comments Styles*
+**Comments Styles**
 ```
 src/scss/comment/__comment-dir.scss
 // @import "comments";
 ```
 
-*Find A Home*
+**Find A Home**
 ```
 src/scss /find-a-home/__find-a-home.scss
 // @import "find-a-home-map";
 ```
 
-*Fonts*
+**Fonts**
 ```
 src/scss/fonts/__fonts-dir.scss
 // @import "typekit";
@@ -207,13 +207,13 @@ src/scss/fonts/__fonts-dir.scss
 @import "font-steadysets";
 ```
 
-*Footer*
+**Footer**
 ```
 src/scss/footer/__footer-dir.scss
 // @import "footer-elements";
 ```
 
-*Forms*
+**Forms**
 ```
 src/scss/forms/__forms-dir.scss
 @import "general-forms";
@@ -223,25 +223,25 @@ src/scss/forms/__forms-dir.scss
 @import "minimal-icons";
 ```
 
-*Global*
+**Global**
 ```
 src/scss/global/__global-dir.scss
 @import "global";
 @import "type";
 ```
 
-*Header*
+**Header**
 ```
 src/scss/header/__header-dir.scss
 @import "header";
 ```
 
-*Main*
+**Main**
 ```
 src/scss/main-content/__main-content-dir.scss
 ```
 
-*Mixins*
+**Mixins**
 ```
 src/scss/mixins/__mixins-dir.scss
 @import "fluid-type";
@@ -255,7 +255,7 @@ src/scss/mixins/__mixins-dir.scss
 @import "link-styles";
 ```
 
-*Page*
+**Page**
 ```
 src/scss/page/__page-dir.scss
 @import "page-header";
@@ -284,7 +284,7 @@ src/scss/page/__page-dir.scss
 @import "post-area";
 ```
 
-*Plugin Related*
+**Plugin Related**
 ```
 src/scss /plugin-related/__plugin-related-dir.scss
 @import "superfish";
@@ -311,7 +311,7 @@ src/scss /plugin-related/__plugin-related-dir.scss
 @import "scrollbar";
 ```
 
-*Shortcode*
+**Shortcode**
 ```
 src/scss /shortcode/__shortcode.scss
 @import "icons";
@@ -343,12 +343,12 @@ src/scss /shortcode/__shortcode.scss
 // @import "call-to-action";
 ```
 
-*Side Bar*
+**Side Bar**
 ```
 src/scss/sidebar/__sidebar-dir.scss
 // @import "sidebar.scss";
 ```
-*Style-guide*
+**Style-guide**
 ```
 src/scss /style-guide/__style-guide.scss
 // @import "table";
@@ -357,12 +357,12 @@ src/scss /style-guide/__style-guide.scss
 // @import "spacing-scales";
 ```
 
-*Telehealth*
+**Telehealth**
 ```
 src/scss/telehealth/__telehealth.scss
 ```
 
-*Theme Base Styles*
+**Theme Base Styles**
 ```
 src/scss/theme-base/__theme-base-dir.scss
 @import "browser";
@@ -381,7 +381,7 @@ src/scss/theme-base/__theme-base-dir.scss
 // @import "shadows";
 ```
 
-*Variables*
+**Variables**
 ```
 src/scss/variables/__variables.scss
 @import "colors";
