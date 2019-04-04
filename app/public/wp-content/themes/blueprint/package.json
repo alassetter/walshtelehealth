@@ -1,11 +1,11 @@
 {
   "name": "WPFRAMEWORK",
   "description": "A WPGulp based project.",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "author": "Andrew",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rpgdallas/blueprint"
+    "url": "https://github.com/rpgdallas/RPG-WpGulpBuild"
   },
   "license": "MIT",
   "devDependencies": {
@@ -61,8 +61,5 @@
     "clearCache": "gulp clearCache",
     "deploy": "gulp deploy",
     "zip": "gulp zip"
-  },
-  "dependencies": {
-    "composer": "^4.1.0"
   }
 }
