@@ -1,0 +1,177 @@
+// ----------------------------------------
+// Absolute Horizontal and Vertical Spacing
+
+// ----------------------------------------
+
+// Create spacing sizes tied to type
+
+$cap: 0.5em;     // 8px = 0.500em
+
+$spacer-none: 0; // 0
+$spacer-xs: ($cap * 1.0);  // 16px
+$spacer-sm: round($cap * 2.5);  // 32px
+$spacer-md: round($cap * 4);  // 48px
+$spacer-lg: round($cap * 6.5); // 64px
+$spacer-xl: round($cap * 10.5); // 80px
+$spacer-2xl: round($cap * 12); // 96px
+
+$sizes: (
+  none: $spacer-none,
+  xs: $spacer-xs,
+  sm: $spacer-sm,
+  md: $spacer-md,
+  lg: $spacer-lg,
+  xl: $spacer-xl,
+  2xl: $spacer-2xl
+);
+
+// margin
+@each $size, $value in $sizes {
+  .m-t-spacer-#{$size} {
+    margin-top: $value / 2 ;
+		@media (min-width: 768px) {
+      margin-top: $value * 1;
+    }
+  }
+  .m-b-spacer-#{$size} {
+    margin-bottom: $value / 2;
+    @media (min-width: 768px) {
+      margin-bottom: $value;
+    }
+  }
+
+  .m-lr-spacer-#{$size} {
+    margin-right: $value / 2;
+    margin-left: $value / 2;
+    @media (min-width: 768px) {
+      margin-right: $value * 1;
+      margin-left: $value * 1;
+    }
+  }
+  .m-tb-spacer-#{$size} {
+    margin-top: $value / 2;
+    margin-bottom: $value / 2;
+    @media (min-width: 768px) {
+      margin-top: $value * 1;
+      margin-bottom: $value * 1;
+    }
+  }
+}
+
+// // padding
+@each $size, $value in $sizes {
+  .p-t-spacer-#{$size} {
+    padding-top: $value / 2 ;
+		@media (min-width: 768px) {
+      padding-top: $value * 1;
+    }
+  }
+  .p-b-spacer-#{$size} {
+    padding-bottom: $value / 2;
+    @media (min-width: 768px) {
+      padding-bottom: $value;
+    }
+  }
+
+  .p-lr-spacer-#{$size} {
+    padding-right: $value / 2;
+    padding-left: $value / 2;
+    @media (min-width: 768px) {
+      padding-right: $value * 1;
+      padding-left: $value * 1;
+    }
+  }
+  .p-tb-spacer-#{$size} {
+    padding-top: $value / 2;
+    padding-bottom: $value / 2;
+    @media (min-width: 768px) {
+      padding-top: $value * 1;
+      padding-bottom: $value * 1;
+    }
+  }
+}
+
+// Mixins for the spacers.
+// usage: @include m-t-spacer-($spacer-md);
+
+@mixin m-t-spacer-($value) {
+  margin-top: $value / 2;
+  @media (min-width: 768px) {
+    margin-top: $value * 1;
+  }
+}
+@mixin m-b-spacer-($value) {
+  margin-bottom: $value / 2;
+  @media (min-width: 768px) {
+    margin-bottom: $value * 1;
+  }
+}
+@mixin m-l-spacer-($value) {
+  margin-left: $value / 2;
+  @media (min-width: 768px) {
+    margin-left: $value * 1;
+  }
+}
+@mixin m-r-spacer-($value) {
+  margin-right: $value / 2;
+  @media (min-width: 768px) {
+    margin-right: $value * 1;
+  }
+}
+@mixin m-lr-spacer-($value) {
+  margin-left: $value / 2;
+  margin-right: $value  / 2;
+  @media (min-width: 768px) {
+    margin-left: $value * 1;
+    margin-right: $value * 1;
+  }
+}
+@mixin m-tb-spacer-($value) {
+  margin-top: $value / 2;
+  margin-bottom: $value / 2;
+  @media (min-width: 768px) {
+    margin-top: $value * 1;
+    margin-bottom: $value * 1;
+  }
+}
+
+@mixin p-t-spacer-($value) {
+  padding-top: $value / 2;
+  @media (min-width: 768px) {
+    padding-top: $value * 1;
+  }
+}
+@mixin p-b-spacer-($value) {
+  padding-bottom: $value / 2;
+  @media (min-width: 768px) {
+    padding-bottom: $value * 1;
+  }
+}
+@mixin p-l-spacer-($value) {
+  padding-left: $value / 2;
+  @media (min-width: 768px) {
+    padding-left: $value * 1;
+  }
+}
+@mixin p-r-spacer-($value) {
+  padding-right: $value / 2;
+  @media (min-width: 768px) {
+    padding-right: $value * 1;
+  }
+}
+@mixin p-lr-spacer-($value) {
+  padding-left: $value / 2;
+  padding-right: $value / 2;
+  @media (min-width: 768px) {
+    padding-left: $value * 1;
+    padding-right: $value * 1;
+  }
+}
+@mixin p-tb-spacer-($value) {
+  padding-top: $value / 2;
+  padding-bottom: $value / 2;
+  @media (min-width: 768px) {
+    padding-top: $value * 1;
+    padding-bottom: $value * 1;
+  }
+}

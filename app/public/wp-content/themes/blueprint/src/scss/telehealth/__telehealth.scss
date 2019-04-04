@@ -1,0 +1,140 @@
+p.vc_custom_heading.intro-copy {
+	font-weight: 300;
+	font-size  : 20px;
+	line-height: 140%;
+}
+
+#footer-outer #footer-widgets .col p {
+	padding-bottom: 0;
+}
+
+.legal {
+	h6 {
+		margin-bottom: 20px;
+
+	}
+
+	p {
+		font-size     : 12px;
+		padding-bottom: 0;
+		line-height   : 1.5;
+
+		strong {
+			font-weight: 600;
+		}
+
+		img {
+			display: none;
+		}
+	}
+
+	a {
+		text-decoration: underline !important;
+	}
+}
+
+.disclaimer {
+	p {
+		font-size  : 12px;
+		line-height: 1.5;
+	}
+
+	img {
+		display: none;
+	}
+}
+
+// Register Button
+input.wpcf7-form-control.wpcf7-submit {
+	text-transform        : uppercase;
+
+	left                  : 0;
+	display               : inline-block;
+	-webkit-transform     : translateX(0);
+	transform             : translateX(0);
+	transition            : opacity 0.45s cubic-bezier(0.25,1,0.33,1),transform 0.45s cubic-bezier(0.25,1,0.33,1);
+	position              : relative;
+	margin-top            : 30px;
+	visibility            : visible;
+	color                 : $brown;
+
+	background-color      : transparent;
+	border                : 2px solid $brown;
+	padding               : 13px 35px;
+	text-transform        : uppercase;
+
+	font-size             : 14px;
+	font-style            : normal;
+	font-weight           : 700;
+	letter-spacing        : 0.96px;
+
+	position              : relative;
+	top                   : -3px;
+	margin-bottom         : 10px;
+	opacity               : 1;
+	line-height           : 20px;
+	display               : inline-block;
+	-webkit-font-smoothing: antialiased;
+}
+
+input.wpcf7-form-control.wpcf7-submit:hover {
+	border-color    : $blush;
+	background-color: $blush;
+	color           : #fff;
+	opacity         : 1!important;
+
+}
+
+/* FAUX TABLE */
+.faux-table {
+	overflow      : auto;
+	font-size     : 15px;
+	border-bottom : 1px solid #756E67;
+	padding-bottom: 30px;
+	margin-bottom : 5px;
+}
+
+.faux-table .titles {
+	text-transform: uppercase;
+	border-bottom : 1px solid #756E67;
+	margin-bottom : 10px;
+}
+
+.faux-table ul {
+	display: flex;
+}
+
+.faux-table li {
+	flex       : 1;
+	padding    : 15px 10px;
+	box-sizing : border-box;
+	display    : block;
+	font-weight: 300;
+}
+
+.faux-table .titles li {
+	font-weight   : 700;
+	padding-bottom: 20px;
+	line-height   : 100%;
+}
+
+.faux-table li:nth-child(1) {
+	flex        : 4;
+	padding-left: 0;
+}
+
+.vc_col-sm-4.wpb_column.column_container.vc_column_container h4 {
+	font-size     : 16px;
+	line-height   : 20px;
+	letter-spacing: 0;
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1000px) {
+	#page-header-bg h1,
+	.full-width-content .republicpg-recent-posts-slider .recent-post-container .inner-wrap h2,
+	body #error-404 h1,
+	body .row .col.section-title h1,
+	body h1 {
+		line-height: 1.2 !important;
+	}
+}

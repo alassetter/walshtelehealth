@@ -1,0 +1,99 @@
+/***************** Minimal Icons ******************/
+body[data-is="minimal"] .icon-reorder {
+	width: 22px!important;
+}
+
+body[data-is="minimal"] #slide-out-widget-area a.slide_out_area_close .icon-default-style[class^="icon-"] {
+	font-size: 24px!important;
+}
+
+body[data-is="minimal"] .icon-reorder:before {
+	content: '\e120'!important;
+	font-size: 24px!important;
+}
+
+body[data-is="minimal"] .icon-blueprint-search:before {
+	content: "\e036";
+}
+
+body[data-is="minimal"] .icon-blueprint-x:before {
+	content: "\e117";
+}
+
+body[data-is="minimal"].ascend .icon-blueprint-cart:before,
+body[data-is="minimal"] .icon-blueprint-cart:before {
+	content: "\e106";
+}
+
+body[data-is="minimal"].ascend #header-outer .cart-wrap {
+	top: -5px!important;
+	margin-right: 22px;
+}
+
+body[data-is="minimal"].ascend #header-outer a.cart-contents .cart-wrap span {
+	width: 17px!important;
+	line-height: 17px!important;
+	font-size: 10px;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 600;
+}
+
+.icon-blueprint-heart-2:before {
+	content: "\e024"!important;
+}
+
+body[data-is="minimal"] #single-below-header.fullscreen-header .steadysets-icon-chat-3,
+body[data-is="minimal"] #single-below-header.fullscreen-header .steadysets-icon-book2,
+body[data-is="minimal"] .steadysets-icon-chat-3 {
+	font-family: 'icomoon'!important;
+	font-size: 20px!important;
+}
+
+body[data-is="minimal"] .steadysets-icon-chat-3:before {
+	content: "\e076";
+}
+
+body[data-is="minimal"] .steadysets-icon-book2:before {
+	font-family: 'icomoon'!important;
+	content: "\e034";
+}
+
+body[data-is="minimal"][data-header-color="light"] header#top nav ul #republicpg-user-account a span,
+body[data-is="minimal"][data-header-color="light"] header#top nav ul #search-btn a span,
+body[data-is="minimal"].ascend[data-header-color="light"] #header-outer .cart-menu .cart-icon-wrap .icon-blueprint-cart,
+body[data-is="minimal"][data-header-color="light"] #header-outer .cart-menu .cart-icon-wrap .icon-blueprint-cart {
+	font-size: 18px!important;
+	color: rgba(0,0,0,0.48);
+}
+
+body[data-is="minimal"][data-header-color="dark"] header#top nav ul #republicpg-user-account a span,
+body[data-is="minimal"][data-header-color="dark"] header#top nav ul #search-btn a span,
+body[data-is="minimal"][data-header-color="custom"] header#top nav ul #search-btn a span,
+body[data-is="minimal"].ascend[data-header-color="dark"] #header-outer .cart-menu .cart-icon-wrap .icon-blueprint-cart,
+body[data-is="minimal"][data-header-color="dark"] #header-outer .cart-menu .cart-icon-wrap .icon-blueprint-cart {
+	font-size: 18px!important;
+}
+
+body[data-is="minimal"] .portfolio-items .republicpg-love i,
+body[data-is="minimal"] .post-meta .republicpg-love i {
+	color: #c5c5c5;
+}
+
+body[data-is="minimal"] #search-outer #search #close a span {
+	font-size: 20px!important;
+}
+
+body[data-is="minimal"][data-header-search="false"] #header-outer[data-has-menu="false"][data-cart="false"] .lines-button {
+	top: -3px;
+}
+
+body[data-is="minimal"] .slide-out-widget-area-toggle[data-icon-animation="spin-and-transform"] .lines-button.x2.close .lines:before,
+body[data-is="minimal"] .slide-out-widget-area-toggle[data-icon-animation="spin-and-transform"] .lines-button.x2.close .lines:after {
+	top: 1px;
+}
+
+body[data-is="minimal"] .lines,
+body[data-is="minimal"] .lines:before,
+body[data-is="minimal"] .lines:after {
+	height: 2px;
+}

@@ -1,0 +1,209 @@
+
+/***************** Minimal Forms ******************/
+/*minimal style*/
+body[data-form-style="minimal"] input[type="text"],
+body[data-form-style="minimal"] textarea,
+body[data-form-style="minimal"] input[type="email"],
+body[data-form-style="minimal"] .container-wrap .span_12.light input[type="email"],
+body[data-form-style="minimal"] input[type=password],
+body[data-form-style="minimal"] input[type=tel],
+body[data-form-style="minimal"] input[type=url],
+body[data-form-style="minimal"] input[type=search],
+body[data-form-style="minimal"] input[type=date] {
+	background-color  : rgba(0,0,0,0.0);
+	box-shadow        : none;
+	-webkit-box-shadow: none;
+	border            : none;
+	position          : relative;
+	margin            : 0;
+	font-size         : $input-font-size;
+	border-bottom     : 2px solid $input-border-color;
+	-webkit-transition: border-color 0.2s ease;
+	transition        : border-color 0.2s ease;
+	border-radius     : 0;
+}
+
+body[data-form-style="minimal"] textarea {
+	line-height: 20px;
+}
+
+.woocommerce-cart[data-form-style="minimal"] table.cart td.actions .coupon .input-text {
+	border-top         : 0;
+	border-left        : 0;
+	border-right       : 0;
+	border-bottom-width: 2px;
+	padding            : 16px;
+}
+
+body[data-form-style="minimal"] .container-wrap .span_12.light input[type="text"],
+body[data-form-style="minimal"] .container-wrap .span_12.light textarea,
+body[data-form-style="minimal"] .container-wrap .span_12.light input[type="email"],
+body[data-form-style="minimal"] .container-wrap .span_12.light input[type="email"],
+body[data-form-style="minimal"] .container-wrap .span_12.light input[type=password],
+body[data-form-style="minimal"] .container-wrap .span_12.light input[type=tel],
+body[data-form-style="minimal"] .container-wrap .span_12.light input[type=url],
+body[data-form-style="minimal"] .container-wrap .span_12.light input[type=search],
+body[data-form-style="minimal"] .container-wrap .span_12.light input[type=date] {
+	color           : #fff;
+	border-top      : 0;
+	border-left     : 0;
+	border-right    : 0;
+	background-color: rgba(255,255,255,0.04);
+	border-bottom   : 2px solid transparent;
+}
+
+body[data-form-style="minimal"] textarea,
+body[data-form-style="minimal"].woocommerce #review_form #respond textarea {
+	padding: 10px;
+}
+
+body[data-form-style="minimal"] .woocommerce-invalid-required-field:not(.woocommerce-validated) .minimal-form-input label:after {
+	-webkit-transform: translate3d(0,0,0);
+	transform        : translate3d(0,0,0);
+	border-color     : $input-border-color!important;
+}
+
+body[data-form-style="minimal"].woocommerce form .form-row.woocommerce-invalid-required-field:not(.woocommerce-validated) label:not([for*="_state"]) .required,
+body[data-form-style="minimal"].woocommerce-page form .form-row.woocommerce-invalid-required-field:not(.woocommerce-validated) label:not([for*="_state"]) .required {
+	color: $input-border-color !important;
+}
+
+body[data-form-style="minimal"].woocommerce form .required {
+	-webkit-transition: color 0.2s cubic-bezier(.39,.71,.56,.98);
+	transition        : color 0.2s cubic-bezier(.39,.71,.56,.98);
+}
+
+body[data-fancy-form-rcs="1"] .woocommerce-billing-fields .fancy-select-wrap,
+body[data-fancy-form-rcs="1"] .woocommerce-shipping-fields .fancy-select-wrap {
+	padding-top: 0;
+}
+
+body[data-form-style="minimal"] .widget_search .search-form .search-submit {
+	top: 30px;
+}
+@-webkit-keyframes text-in-from-left {
+	50% {
+		opacity          : 0;
+		-webkit-transform: translateX(15px) translateY(0px);
+		font-size        : 14px;
+	}
+
+	51% {
+		opacity          : 0;
+		-webkit-transform: translateX(-10px) translateY(-26px);
+		font-size        : 12px;
+		line-height      : 12px;
+	}
+
+	100% {
+		opacity          : 1;
+		-webkit-transform: translateX(0px) translateY(-26px);
+		font-size        : 12px;
+		line-height      : 12px;
+	}
+}
+@keyframes text-in-from-left {
+	50% {
+		opacity  : 0;
+		transform: translateX(15px) translateY(0px);
+		font-size: 14px;
+	}
+
+	51% {
+		opacity    : 0;
+		transform  : translateX(-10px) translateY(-26px);
+		font-size  : 12px;
+		line-height: 12px;
+	}
+
+	100% {
+		opacity    : 1;
+		transform  : translateX(0px) translateY(-26px);
+		font-size  : 12px;
+		line-height: 12px;
+	}
+}
+@-webkit-keyframes text-out-from-left {
+	0% {
+		-webkit-transform: translateY(-26px) translateX(0px);
+		font-size        : 12px;
+		line-height      : 12px;
+	}
+
+	50% {
+		opacity          : 0;
+		-webkit-transform: translateX(-10px) translateY(-26px);
+		font-size        : 12px;
+		line-height      : 12px;
+	}
+
+	51% {
+		opacity          : 0;
+		-webkit-transform: translateX(15px) translateY(0px);
+		font-size        : 14px;
+	}
+
+	100% {
+		opacity          : 1;
+		-webkit-transform: translateX(0px) translateY(0px);
+	}
+}
+@keyframes text-out-from-left {
+	0% {
+		transform  : translateY(-27px) translateX(0px);
+		font-size  : 12px;
+		line-height: 12px;
+	}
+
+	50% {
+		opacity    : 0;
+		transform  : translateX(-10px) translateY(-27px);
+		font-size  : 12px;
+		line-height: 12px;
+	}
+
+	51% {
+		opacity  : 0;
+		transform: translateX(15px) translateY(0px);
+		font-size: 14px;
+	}
+
+	100% {
+		opacity  : 1;
+		transform: translateX(0px) translateY(0px);
+	}
+}
+@keyframes shrink-bounce {
+	0% {
+		transform: scale(1);
+	}
+
+	33% {
+		transform: scale(.85);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+@keyframes checkbox-check {
+	0% {
+		width       : 0;
+		height      : 0;
+		border-color: #fff;
+		transform   : translate3d(0,0,0) rotate(45deg);
+	}
+
+	33% {
+		width    : 0.2em;
+		height   : 0;
+		transform: translate3d(0,0,0) rotate(45deg);
+	}
+
+	100% {
+		width       : 0.2em;
+		height      : 0.6em;
+		border-color: #fff;
+		transform   : translate3d(0,-.6em,0) rotate(45deg);
+	}
+}

@@ -1,0 +1,251 @@
+/***************** Single ******************/
+.single #page-header-bg #single-below-header span {
+	color: rgba(255,255,255,0.8);
+}
+
+#page-header-bg #portfolio-nav a i,
+#page-header-bg .google-plus-share i,
+#page-header-bg .icon-blueprint-heart,
+#page-header-bg .icon-blueprint-heart-2,
+#page-header-bg .twitter-share i,
+#page-header-bg a.facebook-share i,
+#page-header-bg a.linkedin-share i,
+#page-header-bg a.pinterest-share i,
+#page-header-bg span {
+	color: #fff;
+}
+
+#page-header-bg .republicpg-social > *,
+.single #page-header-bg #single-below-header > span,
+.single #page-header-bg #single-meta ul li {
+	border-color: rgba(255,255,255,0.25);
+}
+
+#project-meta ul li,
+.single #page-header-bg #single-meta ul li,
+.single .blog-title #single-meta ul li {
+	margin: 5px!important !important;
+}
+
+#project-meta ul .n-shortcode a,
+#project-meta ul li > a,
+#project-meta ul li.project-date,
+.single #single-meta ul .n-shortcode a,
+.single #single-meta ul li > a {
+	display: block;
+	border-radius: 100px;
+	padding: 8px 16px!important !important;
+	-webkit-transition: border-color 0.45s cubic-bezier(0.25,1,0.33,1);
+	transition: border-color 0.45s cubic-bezier(0.25,1,0.33,1);
+	height: auto;
+	line-height: 20px;
+}
+
+#project-meta ul .n-shortcode span,
+#project-meta ul li span,
+.single #single-meta ul .n-shortcode span,
+.single #single-meta ul li span {
+	transition: color 0.2s linear;
+	line-height: 20px!important;
+	font-family: inherit!important;
+}
+
+.single #page-header-bg .blog-title #single-meta ul .n-shortcode a,
+.single #page-header-bg .blog-title #single-meta ul li > a {
+	border: 2px solid rgba(255,255,255,0.4)!important;
+}
+
+.single #page-header-bg .blog-title #single-meta ul .n-shortcode:hover a,
+.single #page-header-bg .blog-title #single-meta ul li:not(.meta-share-count):hover > a {
+	border: 2px solid rgba(255,255,255,1)!important;
+}
+
+#project-meta ul .n-shortcode a,
+#project-meta ul li > a,
+#project-meta ul li.project-date,
+.ascend #sidebar #project-meta ul li.project-date,
+.single .blog-title #single-meta ul .n-shortcode a,
+.single .blog-title #single-meta ul li > a,
+.single-product #single-meta ul li > a {
+	border: 2px solid rgba(0,0,0,0.1)!important;
+}
+
+body.single #single-meta ul li:first-child {
+	border: none!important;
+}
+
+#project-meta li.meta-comment-count a,
+#project-meta ul .n-shortcode span,
+#project-meta ul li i,
+#project-meta ul li span,
+#project-meta ul li.meta-share-count .republicpg-social a,
+#project-meta ul li.project-date,
+.single #single-meta li.meta-comment-count a,
+.single #single-meta ul li.meta-share-count .republicpg-social a,
+.single .blog-title #single-meta ul li i,
+.single-product #single-meta ul li i {
+	color: #999!important;
+}
+
+.single #page-header-bg #single-meta ul li {
+	border: none;
+	margin: 0;
+}
+
+#project-meta ul li.meta-share-count,
+.single #single-meta ul li.meta-share-count {
+	position: relative;
+	z-index: 100;
+}
+
+.single #project-meta ul li.meta-share-count span,
+.single #single-meta ul li.meta-share-count span {
+	font-size: inherit;
+	padding-left: 0;
+	color: #888;
+}
+
+body.single-portfolio #sidebar #project-meta ul li:first-child {
+	margin-left: 0!important;
+}
+
+#sidebar #project-meta ul li.meta-share-count .republicpg-social a,
+.single #single-meta ul li.meta-share-count .republicpg-social a {
+	display: inline-block!important;
+	border: none;
+	margin: 0!important !important;
+	padding: 0 9px!important !important;
+	border: none!important;
+	box-sizing: content-box;
+	opacity: 0;
+	left: 20px;
+}
+
+#sidebar #project-meta ul li.meta-share-count .republicpg-social a,
+.single [data-tab-pos="fullwidth"] #single-meta ul li.meta-share-count .republicpg-social a,
+.single [data-tab-pos="fullwidth_centered"] #single-meta ul li.meta-share-count .republicpg-social a {
+	left: -20px;
+}
+
+#project-meta ul li.meta-share-count .republicpg-social a span,
+.single #single-meta ul li.meta-share-count .republicpg-social a span {
+	display: none!important;
+}
+
+.single #single-meta ul li.meta-share-count .republicpg-social {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#project-meta ul li.meta-share-count .republicpg-social {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#project-meta.social-hovered ul li.meta-share-count,
+.single #single-meta.social-hovered ul li.meta-share-count {
+	cursor: pointer;
+}
+
+#project-meta.social-hovered ul li.meta-share-count .republicpg-social,
+.single #single-meta.social-hovered ul li.meta-share-count .republicpg-social {
+	top: 0;
+}
+
+#project-meta .meta-comment-count a,
+#project-meta .meta-share-count > a,
+#project-meta .n-shortcode a,
+.single #single-meta .meta-comment-count a,
+.single #single-meta .meta-comment-count i:before,
+.single #single-meta .meta-share-count > a,
+.single #single-meta .n-shortcode a {
+	-webkit-transition: border-color 0.45s cubic-bezier(0.25,1,0.33,1),color.45s cubic-bezier(0.25,1,0.33,1);
+	transition: border-color 0.45s cubic-bezier(0.25,1,0.33,1),color.45s cubic-bezier(0.25,1,0.33,1);
+}
+
+#project-meta ul li.meta-share-count .republicpg-social,
+.single #single-meta ul li.meta-share-count .republicpg-social {
+	width: 188px;
+	text-align: right;
+	border-radius: 5px;
+	padding: 10px 0;
+	display: none;
+}
+
+#project-meta ul li.meta-share-count .republicpg-social,
+div[data-tab-pos="fullwidth"] ul li.meta-share-count .republicpg-social,
+div[data-tab-pos="fullwidth_centered"] ul li.meta-share-count .republicpg-social {
+	text-align: left!important;
+}
+
+#project-meta ul li.meta-share-count .republicpg-social i,
+.single #single-meta ul li.meta-share-count .republicpg-social i {
+	margin: 0!important !important;
+	font-size: 18px!important;
+}
+
+.single #single-meta ul li.meta-share-count span.plural,
+.single #single-meta ul li.meta-share-count span.singular {
+	padding-left: 3px!important;
+}
+
+.single #single-meta ul li.meta-share-count span.plural {
+	display: none;
+}
+
+ul li.meta-share-count span.singular {
+	opacity: 1;
+}
+
+.meta-share-count a span {
+	opacity: 0;
+}
+
+#project-meta ul li i,
+.single #single-meta ul li i {
+	font-size: 16px!important;
+	width: 16px;
+	line-height: 22px!important;
+	margin-right: 7px;
+	height: 20px;
+}
+
+#project-meta ul li i.icon-blueprint-heart-2,
+.single #single-meta ul li i.icon-blueprint-heart-2 {
+	line-height: 20px!important;
+}
+
+html .single-post #single-meta {
+	top: 50%;
+	margin-top: -13px;
+	float: none;
+	z-index: 102;
+	position: absolute;
+}
+
+.single #page-header-bg #single-meta ul li i {
+	color: #fff!important;
+}
+
+.single #single-meta ul li.meta-comment-count i {
+	margin-right: 3px;
+}
+
+.single #page-header-bg #single-meta li span,
+.single #page-header-bg #single-meta li.meta-comment-count a {
+	color: #fff!important;
+}
+
+.single #page-header-bg #single-meta ul li.meta-share-count .republicpg-social a i {
+	color: rgba(255,255,255,0.7)!important;
+}
+
+.single #page-header-bg #single-meta ul li.meta-share-count .republicpg-social a:hover i {
+	color: rgba(255,255,255,1)!important;
+}
+
+.single #page-header-bg #single-below-header a:hover {
+	color: rgba(255,255,255,1)!important;
+}

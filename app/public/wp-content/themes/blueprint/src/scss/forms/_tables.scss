@@ -1,0 +1,112 @@
+$table-background-color: none;
+$table-border-color: none;
+
+/***************** Tables ******************/
+
+// table {
+// 	font-size    : 12px;
+// 	margin-bottom: 20px;
+// }
+//
+// body:not(.woocommerce-cart) .main-content table {
+// 	margin          : 0 0 20px;
+// 	padding         : 0;
+// 	width           : 100%;
+// 	border-collapse : collapse;
+// 	border-spacing  : 0;
+// 	background-color: $table-background-color;
+// 	border-top      : 1px solid $table-border-color;
+// }
+//
+// body:not(.woocommerce-cart) .main-content tr td:first-child,
+// body:not(.woocommerce-cart) .main-content tr th:first-child {
+// 	border-left-style: solid;
+// 	border-left-width: 1px;
+// 	border-color     : $table-border-color;
+// }
+//
+// body:not(.woocommerce-cart) .main-content tr td:first-child,
+// body:not(.woocommerce-cart) .main-content tr th:first-child {
+// 	border-left-style: solid;
+// 	border-left-width: 1px;
+// }
+//
+// body:not(.woocommerce-cart) .main-content th {
+// 	border-left : medium none;
+// 	border-style: none solid solid none;
+// 	border-top  : medium none;
+// 	border-width: medium 1px 1px medium;
+// 	font-weight : bold;
+// 	padding     : 10px;
+// 	text-align  : left;
+// 	border-color: $table-border-color;
+// }
+//
+// body:not(.woocommerce-cart) .main-content td {
+// 	border-color: $table-border-color;
+// 	border-left : none;
+// 	border-style: none solid solid none;
+// 	border-top  : medium none;
+// 	border-width: medium 1px 1px medium;
+// 	font-size   : 13px;
+// 	padding     : 10px;
+// }
+//
+// body:not(.woocommerce-cart) .main-content table tr:nth-child(2n+1) {
+// 	background-color: $table-background-color;
+// }
+
+/***************** Tables ******************/
+
+table {
+	// font-size    : 12px;
+	margin-bottom: 20px;
+}
+
+body .main-content table {
+	margin          : 0 0 20px;
+	padding         : 0;
+	width           : 100%;
+	border-collapse : collapse;
+	border-spacing  : 0;
+	background-color: $table-background-color;
+	border-top      : 0;
+}
+
+body .main-content tr td:first-child,
+body .main-content tr th:first-child {
+	border-style: none;
+	border-width: 0;
+	border-color: none;
+}
+
+body .main-content tr td:first-child,
+body .main-content tr th:first-child {
+	border-style: none;
+	border-width: 0;
+	border-color: none;
+}
+
+body .main-content th {
+	border-style: none;
+	border-width: 0;
+	border-color: none;
+	font-weight : bold;
+	padding     : 10px;
+	text-align  : left;
+	border-color: $table-border-color;
+}
+
+body .main-content td {
+	border-color: none;
+	border      : none;
+	border-style: none;
+	border-width: 0;
+	border-color: none;
+	// font-size   : 13px;
+	padding     : 10px;
+}
+
+body .main-content table tr:nth-child(2n+1) {
+	background-color: $table-background-color;
+}

@@ -1,0 +1,57 @@
+/***************** Flickr widget ******************/
+#footer-outer .col #flickr > div img {
+	background-color: #444;
+	border-color: #4d4d4d;
+}
+
+#footer-outer .col #flickr > div a:hover img {
+	border-color: #616161;
+	background-color: #616161;
+}
+
+#footer-outer .col .recent_posts_extra_widget .post-widget-text span,
+#footer-outer .col .widget_recent_entries span,
+#slide-out-widget-area .recent_posts_extra_widget .post-widget-text span,
+#slide-out-widget-area .widget_recent_entries span {
+	display: block;
+	line-height: 17px;
+	color: #999;
+	font-size: 11px;
+	margin-bottom: 6px;
+}
+
+#slide-out-widget-area .recent_posts_extra_widget .post-widget-text span,
+#slide-out-widget-area .widget_recent_entries span {
+	color: inherit;
+}
+
+#slide-out-widget-area .widget_recent_entries span {
+	opacity: 0.8;
+}
+
+#footer-outer #footer-widgets .col ul li {
+	padding: 8px 0;
+	list-style: none;
+	margin-bottom: 0;
+	border-bottom: 1px solid #444;
+}
+
+#footer-outer #footer-widgets .col ul li:first-child {
+	padding-top: 0px!important;
+}
+
+#footer-outer #footer-widgets .col ul li:last-child {
+	margin-bottom: 0;
+}
+
+#footer-outer #footer-widgets .col ul ul li:last-child {
+	border-bottom: 0px!important;
+}
+
+#footer-outer #footer-widgets .col p {
+	padding-bottom: 20px;
+}
+
+#footer-outer #footer-widgets .col p:last-child {
+	padding-bottom: 0;
+}

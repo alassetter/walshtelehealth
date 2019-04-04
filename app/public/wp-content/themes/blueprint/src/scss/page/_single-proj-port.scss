@@ -1,0 +1,141 @@
+/***************** Single Proj ******************/
+.single-product #single-meta {
+	top: 10px!important;
+}
+
+.single-portfolio #project-meta .sharing li:last-child,
+body.single-post .blog-title #single-meta ul li:last-child,
+body.single-product #single-meta ul li:last-child {
+	margin-right: 0px!important;
+	padding-right: 0px!important;
+	border-right: 0px!important;
+}
+
+.single-portfolio .row .col.section-title h1 {
+	width: 900px;
+	margin-bottom: 0!important;
+}
+
+.single-portfolio .row .col.section-title .subheader,
+.single-portfolio .row .col.section-title h1 {
+	display: inline-block;
+	top: 0;
+	text-align: center;
+	width: 100%;
+	padding-left: 0;
+}
+
+.single-portfolio #full_width_portfolio #portfolio-nav {
+	margin-right: 0;
+}
+
+.single-portfolio #full_width_portfolio .span_12 {
+	padding-right: 0;
+	margin-top: 0;
+}
+
+.single-portfolio #boxed #full_width_portfolio .parallax_slider_outer.first-section,
+.single-portfolio #boxed #full_width_portfolio .republicpg-slider-wrap[data-full-width="boxed-full-width"] {
+	margin-top: 1px!important;
+}
+
+#full_width_portfolio .project-title.parallax-effect {
+	background-color: #f8f8f8;
+	z-index: 9;
+	position: fixed;
+	padding-top: 88px;
+	padding-bottom: 28px;
+	width: 100%;
+}
+
+body[data-header-format="left-header"] #full_width_portfolio .project-title.parallax-effect {
+	padding-top: 40px;
+}
+
+#page-header-bg .project-title {
+	padding-top: 0!important;
+	margin: 0!important !important;
+	background-color: transparent!important;
+}
+
+#boxed #full_width_portfolio .project-title.parallax-effect {
+	position: relative!important;
+	top: 0px!important;
+	padding-right: 0;
+}
+
+body[data-smooth-scrolling="1"] #full_width_portfolio .project-title.parallax-effect,
+body[data-smooth-scrolling="1"] #page-header-bg[data-parallax="1"] {
+	padding-right: 16px;
+}
+
+.project-title .hidden-title {
+	opacity: 0;
+}
+
+#full_width_portfolio .project-title,
+#full_width_portfolio .project-title.parallax-effect .section-title {
+	padding-bottom: 0px!important;
+}
+
+#full_width_portfolio .project-title .container .title-wrap,
+#full_width_portfolio .project-title.parallax-effect .section-title,
+#page-header-bg .section-title,
+.single .row .section-title {
+	border-bottom: none;
+}
+
+.single .heading-title {
+	padding-bottom: 35px;
+	border-bottom: 1px solid #DDD;
+	margin-bottom: 35px;
+}
+
+#full_width_portfolio .project-title.parallax-effect .container {
+	border: none!important;
+}
+
+#page-header-bg .heading-title,
+#page-header-bg .project-title .container {
+	border: none!important;
+	padding: 0!important !important;
+}
+
+.project-title .section-title {
+	padding: 0 70px 0 70px!important !important;
+}
+
+.single .row .section-title {
+	padding: 0;
+	margin: 0!important !important;
+}
+
+#page-header-bg .section-title {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#full_width_portfolio .project-title {
+	padding-bottom: 30px;
+}
+
+.project-additional.clear {
+	clear: both!important;
+	display: block;
+}
+
+.project-additional.clear li {
+	float: none!important;
+}
+
+.single-portfolio #project-meta .clear {
+	padding-bottom: 0px!important;
+}
+
+.single-portfolio #project-meta .sharing li a > span.count {
+	opacity: 0;
+}
+
+.single #single-meta ul li .republicpg-love-wrap span {
+	opacity: 1;
+}

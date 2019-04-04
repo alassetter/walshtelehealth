@@ -1,0 +1,233 @@
+/***************** Horizontal List Item ******************/
+.wpb_wrapper > .republicpg-hor-list-item:last-child {
+	border-bottom: 0;
+}
+
+.wpb_wrapper > .republicpg-hor-list-item {
+	margin-bottom: 0;
+}
+
+.republicpg-hor-list-item {
+	box-sizing: border-box;
+	position: relative;
+	border-bottom: 1px solid rgba(0,0,0,0.14);
+	padding: 22px;
+	margin-bottom: 0;
+	-webkit-transition: all 0.4s cubic-bezier(0.2,0,0.15,1);
+	-ms-transition: all 0.4s cubic-bezier(0.2,0,0.15,1);
+	transition: all 0.4s cubic-bezier(0.2,0,0.15,1);
+}
+
+body .tabbed div.republicpg-hor-list-item {
+	padding: 22px;
+}
+
+.span_12.light .republicpg-hor-list-item {
+	border-color: rgba(255,255,255,0.12);
+}
+
+.republicpg-hor-list-item:before {
+	height: 100%;
+	opacity: 0;
+	bottom: 0;
+	left: 0;
+	content: '';
+	position: absolute;
+	right: 0;
+	z-index: -1;
+	-webkit-transform: perspective(1000px) rotateX(90deg);
+	-ms-transform: perspective(1000px) rotateX(90deg);
+	transform: perspective(1000px) rotateX(90deg);
+	-webkit-transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-transition: all 0.4s cubic-bezier(0.2,0,0.15,1);
+	-ms-transition: all 0.4s cubic-bezier(0.2,0,0.15,1);
+	transition: all 0.4s cubic-bezier(0.2,0,0.15,1);
+}
+
+.republicpg-hor-list-item[data-color="black"]:before {
+	background-color: #000;
+}
+
+.republicpg-hor-list-item[data-color="white"]:before {
+	background-color: #fff;
+}
+
+.republicpg-hor-list-item:hover {
+	border-color: transparent!important;
+}
+
+.republicpg-hor-list-item:hover:before {
+	opacity: 1;
+	-webkit-transform: perspective(1000px) rotateX(0);
+	-ms-transform: perspective(1000px) rotateX(0);
+	transform: perspective(1000px) rotateX(0);
+}
+
+.republicpg-hor-list-item:hover .republicpg-list-item,
+.republicpg-hor-list-item:hover .republicpg-list-item-btn,
+.span_12.light .republicpg-hor-list-item .republicpg-list-item,
+.span_12.light .republicpg-hor-list-item .republicpg-list-item-btn {
+	color: #fff;
+}
+
+.republicpg-hor-list-item:hover .republicpg-list-item-btn,
+.span_12.light .republicpg-hor-list-item .republicpg-list-item-btn {
+	border-color: rgba(255,255,255,0.5);
+}
+
+.republicpg-hor-list-item[data-color="white"]:hover .republicpg-list-item,
+.republicpg-hor-list-item[data-color="white"]:hover .republicpg-list-item-btn {
+	color: #000;
+}
+
+.republicpg-hor-list-item[data-color="white"]:hover .republicpg-list-item-btn {
+	border-color: rgba(0,0,0,0.3);
+}
+
+.republicpg-hor-list-item .republicpg-list-item-btn {
+	padding: 8px 12px;
+	display: inline-block;
+	border: 2px solid rgba(0,0,0,0.3);
+	font-size: 14px!important;
+	line-height: 12px;
+	color: #000;
+	margin: 3px;
+	-webkit-transition: border-color 0.45s cubic-bezier(0.25,1,0.33,1),color 0.45s cubic-bezier(0.25,1,0.33,1);
+	-ms-transition: border-color 0.45s cubic-bezier(0.25,1,0.33,1),color 0.45s cubic-bezier(0.25,1,0.33,1);
+	transition: border-color 0.45s cubic-bezier(0.25,1,0.33,1),color 0.45s cubic-bezier(0.25,1,0.33,1);
+}
+
+.republicpg-hor-list-item .republicpg-list-item-btn:hover,
+.span_12.light .republicpg-hor-list-item .republicpg-list-item-btn:hover {
+	border-color: #fff;
+}
+
+.republicpg-hor-list-item .full-link {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+
+body[data-button-style^="rounded"] .republicpg-hor-list-item .republicpg-list-item-btn {
+	border-radius: 100px;
+}
+
+.republicpg-hor-list-item > .republicpg-list-item {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transition: color 0.4s cubic-bezier(0.2,0,0.15,1);
+	-ms-transition: color 0.4s cubic-bezier(0.2,0,0.15,1);
+	transition: color 0.4s cubic-bezier(0.2,0,0.15,1);
+}
+
+.republicpg-hor-list-item > .republicpg-list-item[data-text-align="left"] {
+	text-align: left;
+}
+
+.republicpg-hor-list-item > .republicpg-list-item[data-text-align="center"] {
+	text-align: center;
+}
+
+.republicpg-hor-list-item > .republicpg-list-item[data-text-align="right"] {
+	text-align: right;
+}
+
+.republicpg-hor-list-item[data-columns="1"] > .republicpg-list-item {
+	width: 100%;
+}
+
+.republicpg-hor-list-item[data-columns="2"] > .republicpg-list-item {
+	width: 50%;
+}
+
+.republicpg-hor-list-item[data-columns="3"] > .republicpg-list-item {
+	width: 33.3%;
+}
+
+.republicpg-hor-list-item[data-columns="4"] > .republicpg-list-item {
+	width: 25%;
+}
+
+.republicpg-hor-list-item[data-columns="4"][data-column-layout="large_first"] > div:nth-child(3),
+.republicpg-hor-list-item[data-columns="4"][data-column-layout="large_first"] > div:nth-child(4),
+.republicpg-hor-list-item[data-columns="4"][data-column-layout="large_nth"] > div:nth-child(2),
+.republicpg-hor-list-item[data-columns="4"][data-column-layout="large_nth"] > div:nth-child(4),
+.republicpg-hor-list-item[data-columns="4"][data-column-layout="small_first_last"] > div:nth-child(1),
+.republicpg-hor-list-item[data-columns="4"][data-column-layout="small_first_last"] > div:nth-child(4),
+.republicpg-hor-list-item[data-columns="4"][data-column-layout="small_nth"] > div:nth-child(1),
+.republicpg-hor-list-item[data-columns="4"][data-column-layout="small_nth"] > div:nth-child(3) {
+	width: 15%;
+}
+
+.republicpg-hor-list-item[data-columns="4"][data-column-layout="large_first"] > div:nth-child(1),
+.republicpg-hor-list-item[data-columns="4"][data-column-layout="large_first"] > div:nth-child(2),
+.republicpg-hor-list-item[data-columns="4"][data-column-layout="large_nth"] > div:nth-child(1),
+.republicpg-hor-list-item[data-columns="4"][data-column-layout="large_nth"] > div:nth-child(3),
+.republicpg-hor-list-item[data-columns="4"][data-column-layout="small_first_last"] > div:nth-child(2),
+.republicpg-hor-list-item[data-columns="4"][data-column-layout="small_first_last"] > div:nth-child(3),
+.republicpg-hor-list-item[data-columns="4"][data-column-layout="small_nth"] > div:nth-child(2),
+.republicpg-hor-list-item[data-columns="4"][data-column-layout="small_nth"] > div:nth-child(4) {
+	width: 35%;
+}
+
+.republicpg-hor-list-item[data-columns="3"][data-column-layout="small_first"] > div:nth-child(1) {
+	width: 20%;
+}
+
+.republicpg-hor-list-item[data-columns="3"][data-column-layout="small_first"] > div:nth-child(2),
+.republicpg-hor-list-item[data-columns="3"][data-column-layout="small_first"] > div:nth-child(3) {
+	width: 40%;
+}
+
+.republicpg-hor-list-item[data-columns="3"][data-column-layout="large_first"] > div:nth-child(1),
+.republicpg-hor-list-item[data-columns="3"][data-column-layout="large_last"] > div:nth-child(3),
+.republicpg-hor-list-item[data-columns="3"][data-column-layout="large_middle"] > div:nth-child(2) {
+	width: 50%;
+}
+
+.republicpg-hor-list-item[data-columns="3"][data-column-layout="large_first"] > div:nth-child(2),
+.republicpg-hor-list-item[data-columns="3"][data-column-layout="large_first"] > div:nth-child(3),
+.republicpg-hor-list-item[data-columns="3"][data-column-layout="large_last"] > div:nth-child(1),
+.republicpg-hor-list-item[data-columns="3"][data-column-layout="large_last"] > div:nth-child(2),
+.republicpg-hor-list-item[data-columns="3"][data-column-layout="large_middle"] > div:nth-child(1),
+.republicpg-hor-list-item[data-columns="3"][data-column-layout="large_middle"] > div:nth-child(3) {
+	width: 25%;
+}
+
+.republicpg-hor-list-item[data-columns="2"][data-column-layout="large_first"] > div:nth-child(1) {
+	width: 70%;
+}
+
+.republicpg-hor-list-item[data-columns="2"][data-column-layout="large_first"] > div:nth-child(2) {
+	width: 30%;
+}
+
+.republicpg-hor-list-item[data-columns="2"][data-column-layout="xlarge_first"] > div:nth-child(1) {
+	width: 80%;
+}
+
+.republicpg-hor-list-item[data-columns="2"][data-column-layout="xlarge_first"] > div:nth-child(2) {
+	width: 20%;
+}
+
+.republicpg-hor-list-item[data-columns="2"][data-column-layout="xsmall_first"] > div:nth-child(1) {
+	width: 20%;
+}
+
+.republicpg-hor-list-item[data-columns="2"][data-column-layout="xsmall_first"] > div:nth-child(2) {
+	width: 80%;
+}
+
+.republicpg-hor-list-item[data-columns="2"][data-column-layout="small_first"] > div:nth-child(1) {
+	width: 30%;
+}
+
+.republicpg-hor-list-item[data-columns="2"][data-column-layout="small_first"] > div:nth-child(2) {
+	width: 70%;
+}

@@ -1,0 +1,40 @@
+/****************************** REPUBLICPG LOVE **************************/
+.republicpg-love-wrap {
+	width: 72px;
+	line-height: 19px;
+}
+
+.republicpg-love {
+	-webkit-transition: background-color 0.2s linear;
+	transition: background-color 0.2s linear;
+	height: 13px;
+	width: auto;
+	color: inherit!important;
+	line-height: 11px;
+	font-size: 14px;
+	display: inline-block;
+}
+
+.republicpg-love span {
+	font-family: 'Open Sans'!important;
+	font-weight: 400;
+	color: inherit;
+	font-size: 12px;
+	line-height: 12px;
+	padding-left: 0px!important;
+	display: inline-block!important;
+}
+
+html body .republicpg-love span {
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.row .col.section-title .republicpg-love span {
+	font-size: 12px;
+}
+
+.republicpg-love.loved i,
+.republicpg-love:hover i {
+	color: #27CFC3;
+}

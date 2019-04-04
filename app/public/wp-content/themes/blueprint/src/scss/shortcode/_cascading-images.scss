@@ -1,0 +1,45 @@
+/***************** Cascading images ******************/
+.republicpg_cascading_images {
+	position: relative;
+	display: block;
+}
+
+.republicpg_cascading_images .cascading-image .img-wrap,
+.republicpg_cascading_images .cascading-image img {
+	display: block;
+	margin-bottom: 0;
+	line-height: 0;
+}
+
+.republicpg_cascading_images .cascading-image img {
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+.republicpg_cascading_images .cascading-image .img-wrap {
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	display: inline-block;
+}
+
+.republicpg_cascading_images .cascading-image,
+.republicpg_cascading_images .cascading-image .inner-wrap {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.republicpg_cascading_images .cascading-image:not(:first-child) {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translateY(-50%) translateX(-50%);
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	transform: translateY(-50%) translateX(-50%);
+}
+
+.republicpg_cascading_images.animated-in .cascading-image .inner-wrap {
+	-ms-transition: transform 0.6s cubic-bezier(.3,0.95,.3,0.95),opacity 0.3s ease;
+	-webkit-transition: -webkit-transform 0.6s cubic-bezier(.3,0.95,.3,0.95),opacity 0.3s ease;
+	transition: transform 0.6s cubic-bezier(.3,0.95,.3,0.95),opacity 0.3s ease;
+}

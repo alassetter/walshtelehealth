@@ -1,0 +1,200 @@
+/***************** carouFredSel ******************/
+.carousel-outer {
+	overflow: hidden;
+	margin-right: 2px;
+}
+
+body[data-ajax-transitions="true"] ul.row.carousel {
+	opacity: 1;
+}
+
+.carousel-heading {
+	z-index: 100;
+	position: relative;
+	margin-bottom: 7px;
+	min-height: 23px;
+}
+
+.carousel-heading h2 {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px!important;
+	font-size: 12px;
+	margin-left: 10px;
+	margin-bottom: 7px!important;
+}
+
+.carousel-wrap .item-count {
+	font-size: 12px;
+}
+
+.carousel-wrap[data-full-width="false"] .carousel-heading h2 {
+	font-size: 12px!important;
+}
+
+html:not(.js) .carousel-heading {
+	display: none;
+}
+
+.carousel-wrap[data-ctc="light"] .carousel-heading h2,
+.ascend .carousel-wrap[data-ctc="light"] .carousel-next i,
+.ascend .carousel-wrap[data-ctc="light"] .carousel-prev i,
+.carousel-wrap[data-ctc="light"] .item-count,
+.carousel-wrap[data-full-width="true"][data-ctc="light"] .carousel-heading i {
+	color: #fff;
+}
+
+.recent-work-carousel[data-ctc="light"][data-full-width="true"] .carousel-heading {
+	background-color: #252525;
+}
+
+.caroufredsel_wrapper {
+	cursor: grab!important;
+	cursor: -moz-grab!important;
+	cursor: -webkit-grab!important;
+	margin: 0;
+}
+
+.caroufredsel_wrapper.active {
+	cursor: grabbing!important;
+	cursor: -moz-grabbing!important;
+	cursor: -webkit-grabbing!important;
+}
+
+body .carousel-wrap {
+	position: relative;
+	overflow: hidden;
+	margin: 0 -10px;
+}
+
+.full-width-section .carousel-wrap {
+	margin-bottom: 0px!important;
+}
+
+#full_width_portfolio .full-width-content.first-section,
+#full_width_portfolio .full-width-section.first-section {
+	margin-top: 0px!important;
+}
+
+.carousel-wrap[data-full-width="true"] {
+	padding: 0 18px;
+	margin-bottom: 0px!important;
+}
+
+.carousel-wrap[data-full-width="true"] .carousel-heading {
+	background-color: #f8f8f8;
+	padding: 43px 0 40px;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+body .carousel-wrap[data-full-width="true"] .carousel-heading h2 {
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0.5px!important;
+	margin: 0 auto!important !important;
+	max-width: 900px;
+	text-transform: none!important;
+	font-family: 'Open Sans';
+	font-weight: 300;
+}
+
+.carousel-wrap[data-full-width="true"] .carousel-heading a.portfolio-page-link {
+	position: absolute;
+	left: 0;
+}
+
+.carousel-wrap[data-full-width="true"] .carousel-heading a.portfolio-page-link,
+.carousel-wrap[data-full-width="true"] .carousel-heading a.carousel-prev,
+.carousel-wrap[data-full-width="true"] .carousel-heading a.carousel-next {
+	top: 8px!important;
+}
+
+.carousel-wrap[data-full-width="true"] .carousel-heading a {
+	background-color: transparent!important;
+}
+
+.carousel-wrap[data-full-width="true"] .carousel-heading i {
+	background-color: transparent!important;
+	color: #888;
+	font-size: 30px;
+	line-height: 28px;
+	transition: color 0.2s ease 0s;
+}
+
+body .carousel-wrap[data-full-width="true"] .carousel-heading .container {
+	min-height: 40px;
+}
+
+#boxed .carousel-wrap[data-full-width="true"] {
+	padding: 0;
+}
+
+body[data-smooth-scrolling="0"] .carousel-wrap[data-full-width="true"] {
+	padding: 0;
+}
+
+.carousel-wrap .work-item.style-2 {
+	margin-bottom: 0px!important;
+}
+
+.carousel-wrap[data-full-width="true"] .portfolio-items .col .work-item.style-2 .work-info a,
+.woocommerce .products-carousel ul.products li.product a {
+	cursor: grab!important;
+	cursor: -moz-grab!important;
+	cursor: -webkit-grab!important;
+	margin: 0;
+}
+
+.carousel-wrap[data-full-width="true"] .portfolio-items .col .work-item.style-2 .work-info > a,
+.portfolio-items .col .work-item.style-2 .work-info > a,
+.portfolio-items .col .work-item.style-3 .work-info > a,
+.portfolio-items .col .work-item.style-4 .work-info > a,
+.portfolio-items .col .work-item.style-3-alt .work-info > a,
+.portfolio-items .col .work-item.style-1 .work-info > a {
+	display: block!important;
+	margin: 0;
+	background-color: transparent!important;
+	position: absolute!important;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 40;
+}
+
+.carousel-wrap[data-full-width="true"] .portfolio-items .col .work-item .work-info a.active,
+.woocommerce .products-carousel ul.products li.product a.active {
+	cursor: -moz-grabbing!important;
+	cursor: -webkit-grabbing!important;
+}
+
+.full-width-content .vc_col-sm-12 .carousel-wrap.products-carousel,
+.full-width-content .vc_span12 .carousel-wrap.products-carousel {
+	padding: 0 30px;
+	overflow: visible;
+}
+
+.full-width-content .vc_col-sm-3 .carousel-wrap.products-carousel,
+.full-width-content .vc_col-sm-3 .carousel-wrap.products-carousel .caroufredsel_wrapper,
+.full-width-content .vc_col-sm-4 .carousel-wrap.products-carousel,
+.full-width-content .vc_col-sm-4 .carousel-wrap.products-carousel .caroufredsel_wrapper,
+.full-width-content .vc_col-sm-6 .carousel-wrap.products-carousel,
+.full-width-content .vc_col-sm-6 .carousel-wrap.products-carousel .caroufredsel_wrapper,
+.full-width-content .vc_col-sm-8 .carousel-wrap.products-carousel,
+.full-width-content .vc_col-sm-8 .carousel-wrap.products-carousel .caroufredsel_wrapper,
+.full-width-content .vc_col-sm-9 .carousel-wrap.products-carousel,
+.full-width-content .vc_col-sm-9 .carousel-wrap.products-carousel .caroufredsel_wrapper,
+.full-width-content .vc_span3 .carousel-wrap.products-carousel,
+.full-width-content .vc_span3 .carousel-wrap.products-carousel .caroufredsel_wrapper,
+.full-width-content .vc_span4 .carousel-wrap.products-carousel,
+.full-width-content .vc_span4 .carousel-wrap.products-carousel .caroufredsel_wrapper,
+.full-width-content .vc_span6 .carousel-wrap.products-carousel,
+.full-width-content .vc_span6 .carousel-wrap.products-carousel .caroufredsel_wrapper,
+.full-width-content .vc_span8 .carousel-wrap.products-carousel,
+.full-width-content .vc_span8 .carousel-wrap.products-carousel .caroufredsel_wrapper,
+.full-width-content .vc_span9 .carousel-wrap.products-carousel,
+.full-width-content .vc_span9 .carousel-wrap.products-carousel .caroufredsel_wrapper {
+	overflow: hidden!important;
+}

@@ -1,0 +1,56 @@
+/***************** Fancy UL ******************/
+.republicpg-fancy-ul ul li {
+	list-style: none;
+	position: relative;
+	padding-left: 38px;
+}
+
+body .republicpg-fancy-ul[data-list-icon="none"] ul li {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.republicpg-fancy-ul ul {
+	margin-left: 0!important;
+}
+
+.republicpg-fancy-ul ul li i {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 20px!important;
+}
+
+.republicpg-fancy-ul ul li .icon-default-style[class^="icon-"] {
+	font-size: 16px!important;
+	height: 100%!important;
+	line-height: 22px!important;
+}
+
+.republicpg-fancy-ul ul li i.icon-default-style[class^="icon-"].icon-blueprint-thin-line {
+	font-size: 27px!important;
+	height: 27px!important;
+	line-height: 27px !important;
+}
+
+.republicpg-fancy-ul[data-animation="true"] ul li {
+	opacity: 0;
+	left: -20px;
+	margin-bottom: 5px;
+}
+
+.republicpg-fancy-ul[data-alignment="center"] ul,
+.republicpg-fancy-ul[data-alignment="center"] ul li {
+	text-align: center!important;
+}
+
+.republicpg-fancy-ul[data-alignment="right"] ul,
+.republicpg-fancy-ul[data-alignment="right"] ul li {
+	text-align: right!important;
+}
+
+.republicpg-fancy-ul[data-alignment="center"] ul li i:not(.none),
+.republicpg-fancy-ul[data-alignment="right"] ul li i:not(.none) {
+	position: relative;
+	margin-right: 10px;
+}

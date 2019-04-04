@@ -1,0 +1,196 @@
+/***************** Google Map ******************/
+.gm-style .gm-style-iw,
+.gm-style .gm-style-iw a,
+.gm-style .gm-style-iw div,
+.gm-style .gm-style-iw label,
+.gm-style .gm-style-iw span {
+	font-family: arial;
+	letter-spacing: 0;
+	line-height: 20px;
+}
+
+.republicpg-google-map .animated-dot,
+.republicpg-leaflet-map .animated-dot {
+	width: 20px;
+	height: 20px;
+	left: -9px;
+	top: -5px;
+	position: relative;
+}
+
+.republicpg-google-map .animated-dot .middle-dot,
+.republicpg-leaflet-map .animated-dot .middle-dot {
+	width: 16px;
+	height: 16px;
+	border-radius: 30px;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	transform-origin: 50% 50%;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}
+
+.republicpg-google-map[data-dark-color-scheme="1"] .animated-dot .middle-dot:after {
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: ' ';
+	background-color: #fff;
+	border-radius: 30px;
+	z-index: 100;
+	opacity: 0;
+	animation: animationSignal2 cubic-bezier(0,.55,.55,1) 2s;
+	transform-origin: 50% 50%;
+	animation-fill-mode: forwards;
+	animation-delay: 0.78s;
+	animation-iteration-count: infinite;
+}
+
+.republicpg-google-map .animated-dot .signal,
+.republicpg-leaflet-map .animated-dot .signal {
+	width: 180px;
+	pointer-events: none;
+	height: 180px;
+	border-radius: 200px;
+	position: absolute;
+	left: -80px;
+	top: -80px;
+	opacity: 0;
+	-webkit-animation: animationSignal cubic-bezier(0,.55,.55,1) 2s;
+	animation: animationSignal cubic-bezier(0,.55,.55,1) 2s;
+	transform-origin: 50% 50%;
+	animation-fill-mode: forwards;
+	animation-delay: 0.78s;
+	animation-iteration-count: infinite;
+}
+
+.republicpg-google-map .animated-dot .signal2,
+.republicpg-leaflet-map .animated-dot .signal2 {
+	width: 180px;
+	height: 180px;
+	pointer-events: none;
+	border-radius: 200px;
+	position: absolute;
+	left: -80px;
+	top: -80px;
+	opacity: 0;
+	-webkit-animation: animationSignal cubic-bezier(0,.55,.55,1) 2s;
+	animation: animationSignal cubic-bezier(0,.55,.55,1) 2s;
+	transform-origin: 50% 50%;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+}
+
+.republicpg-leaflet-map .republicpg-leaflet-pin {
+	width: 34px;
+	height: 34px;
+	font-size: 0;
+	border: 10px solid #3452ff;
+	border-radius: 50% 50% 50% 0;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	position: relative;
+	background-color: #fff;
+}
+
+.republicpg-leaflet-map:not([data-marker-style="republicpg"]) .leaflet-marker-icon:before {
+	background-image: url("img/icons/leaflet/marker-shadow.png");
+	position: absolute;
+	z-index: -1;
+	display: block;
+	top: 2px;
+	left: 9px;
+	width: 41px;
+	height: 41px;
+	content: '';
+	-webkit-transform: rotate(13deg);
+	transform: rotate(13deg);
+}
+
+.republicpg-leaflet-map .leaflet-marker-icon {
+	overflow: visible;
+	background-color: transparent;
+	border: none;
+}
+
+.republicpg-leaflet-map[data-greyscale="1"] > .leaflet-map-pane .leaflet-tile-container {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+@-webkit-keyframes animationSignal {
+	0% {
+		opacity: 0;
+		transform: scale(0.00);
+	}
+
+	1% {
+		opacity: 0.25;
+	}
+
+	20% {
+		opacity: 0.25;
+	}
+
+	60% {
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+@-webkit-keyframes animationSignal2 {
+	0% {
+		opacity: 0;
+	}
+
+	1% {
+		opacity: 0.2;
+	}
+
+	20% {
+		opacity: 0.17;
+	}
+
+	60% {
+		opacity: 0;
+	}
+}
+@keyframes animationSignal {
+	0% {
+		opacity: 0;
+		transform: scale(0.00);
+	}
+
+	1% {
+		opacity: 0.25;
+	}
+
+	20% {
+		opacity: 0.25;
+	}
+
+	60% {
+		transform: scale(1);
+		opacity: 0;
+	}
+}
+@keyframes animationSignal2 {
+	0% {
+		opacity: 0;
+	}
+
+	1% {
+		opacity: 0.2;
+	}
+
+	20% {
+		opacity: 0.17;
+	}
+
+	60% {
+		opacity: 0;
+	}
+}

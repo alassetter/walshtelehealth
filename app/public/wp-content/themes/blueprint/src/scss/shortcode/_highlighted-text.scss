@@ -1,0 +1,64 @@
+/***************** Highlighted Text ****************/
+.republicpg-highlighted-text em {
+	position: relative;
+	display: inline-block;
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	text-transform: inherit;
+	letter-spacing: inherit;
+	line-height: 1em;
+	padding: 0 3px;
+}
+
+.republicpg-highlighted-text em:before {
+	-webkit-transition: -webkit-transform 0.9s cubic-bezier(.15,.75,.4,1), opacity 0.25s ease;
+	transition: transform 0.9s cubic-bezier(.15,.75,.4,1), opacity 0.25s ease;
+	content: "";
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transform-origin: left bottom;
+	transform-origin: left bottom;
+}
+
+.republicpg-highlighted-text[data-style="half_text"] em:before {
+	height: 28%;
+	top: auto;
+	bottom: 0;
+}
+
+.republicpg-highlighted-text em.animated:before {
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+
+.republicpg-highlighted-text[data-using-custom-color="false"] em:before {
+	opacity: 0.3;
+}
+@media only screen and (max-width: 1000px) {
+	.republicpg-highlighted-text em.animated:before {
+		-webkit-transition: none;
+		transition: none;
+	}
+}
+
+.republicpg-highlighted-text a {
+	color: inherit;
+}
+
+.republicpg-highlighted-text[data-style="half_text"] a:hover em.animated:before {
+	-webkit-transform: scaleX(1) scaleY(0.5);
+	transform: scaleX(1) scaleY(0.5);
+}
+
+.republicpg-highlighted-text[data-style="full_text"] a:hover em.animated:before {
+	opacity: 0.65;
+}

@@ -1,0 +1,64 @@
+/***************** Particle Style ******************/
+#page-header-bg .canvas-bg {
+	transition: background-color 0.7s ease;
+	-webkit-transition: background-color 0.7s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+
+#page-header-bg .republicpg-particles .span_6,
+.republicpg-box-roll .overlaid-content .span_6 {
+	backface-visibility: visible;
+	transform-style: preserve-3d;
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	top: auto!important;
+	bottom: auto!important;
+	width: 100%;
+	height: 100%;
+}
+
+#page-header-bg .republicpg-particles {
+	width: 100%;
+	height: 100%;
+}
+
+#page-header-bg .republicpg-particles .inner-wrap {
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+
+#page-header-bg .republicpg-particles .span_6 .inner-wrap,
+#page-header-bg[data-alignment-v="top"] .span_6 .inner-wrap,
+.republicpg-box-roll .overlaid-content .span_6 .inner-wrap {
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.republicpg-box-roll .overlaid-content .span_6 .inner-wrap {
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+
+#page-header-wrap .republicpg-particles .fade-out {
+	display: block;
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	opacity: 0;
+	background-color: #000;
+	pointer-events: none;
+}

@@ -1,0 +1,64 @@
+
+// Colors
+
+// Colors will be generated from variables/color-map.scss
+// .bg-color-name, .txt-color-name
+
+.txt {
+	@include txt-color-modifiers;
+
+}
+
+.bg {
+	@include bg-color-modifiers;
+}
+// Ui Colors
+.ui-txt {
+	@include ui-txt-color-modifiers;
+}
+
+.ui-bg {
+	@include ui-bg-color-modifiers;
+}
+
+.headline-dark {
+	color: $headline-dark;
+}
+
+.headline-light {
+	color: $headline-light;
+}
+
+.text-primary {
+	color: $text-primary;
+}
+
+.text-secondary {
+	color: $text-secondary;
+}
+
+.text-lt-grey {
+	color: $text-lt-grey;
+}
+
+// Shadows
+
+.shadow-1 {
+	box-shadow: $shadow-1;
+}
+
+.shadow-2 {
+	box-shadow: $shadow-2;
+}
+
+.shadow-3 {
+	box-shadow: $shadow-3;
+}
+
+.shadow-4 {
+	box-shadow: $shadow-4;
+}
+
+.shadow-5 {
+	box-shadow: $shadow-5;
+}

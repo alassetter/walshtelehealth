@@ -1,0 +1,278 @@
+/***************** Sharing ******************/
+.republicpg-social .social-text {
+	display: none;
+}
+
+.sharing-default-minimal .republicpg-social .social-text {
+	display: inline;
+	opacity: 1;
+}
+
+.sharing-default-minimal .republicpg-social .facebook-share {
+	border-color: #6a75c8!important;
+	color: #6a75c8;
+	transition: all 0.2s ease;
+}
+
+.sharing-default-minimal .republicpg-social .twitter-share {
+	border-color: #6abaf7!important;
+	color: #6abaf7;
+	transition: all 0.2s ease;
+}
+
+.sharing-default-minimal .republicpg-social .google-plus-share {
+	border-color: #f05660!important;
+	color: #f05660;
+	transition: all 0.2s ease;
+}
+
+.sharing-default-minimal .republicpg-social .linkedin-share {
+	border-color: #2e82d9!important;
+	color: #2e82d9;
+	transition: all 0.2s ease;
+}
+
+.sharing-default-minimal .republicpg-social .pinterest-share {
+	border-color: #f00!important;
+	color: #f00;
+	transition: all 0.2s ease;
+}
+
+.sharing-default-minimal .republicpg-social .facebook-share i {
+	height: 15px!important;
+	font-size: 15px!important;
+	line-height: 19px!important;
+	color: #6a75c8;
+	transition: all 0.2s ease;
+}
+
+.sharing-default-minimal .republicpg-social .twitter-share i {
+	height: 15px!important;
+	font-size: 16px!important;
+	line-height: 18px!important;
+	color: #6abaf7;
+	transition: all 0.2s ease;
+}
+
+.sharing-default-minimal .republicpg-social .google-plus-share i {
+	height: 15px!important;
+	font-size: 14px!important;
+	line-height: 19px!important;
+	color: #f05660;
+	transition: all 0.2s ease;
+}
+
+.sharing-default-minimal .republicpg-social .linkedin-share i {
+	height: 15px!important;
+	font-size: 14px!important;
+	color: #2e82d9;
+	line-height: 16px!important;
+	transition: all 0.2s ease;
+}
+
+.sharing-default-minimal .republicpg-social .pinterest-share i {
+	height: 15px!important;
+	font-size: 16px!important;
+	color: #f00;
+	line-height: 18px!important;
+	transition: all 0.2s ease;
+}
+
+.sharing-default-minimal .republicpg-social .facebook-share:hover {
+	background-color: #6a75c8;
+	color: #fff;
+}
+
+.sharing-default-minimal .republicpg-social .twitter-share:hover {
+	background-color: #6abaf7;
+	color: #fff;
+}
+
+.sharing-default-minimal .republicpg-social .google-plus-share:hover {
+	background-color: #f05660;
+	color: #fff;
+}
+
+.sharing-default-minimal .republicpg-social .linkedin-share:hover {
+	background-color: #2e82d9;
+	color: #fff;
+}
+
+.sharing-default-minimal .republicpg-social .pinterest-share:hover {
+	background-color: #f00;
+	color: #fff;
+}
+
+.sharing-default-minimal .republicpg-social .facebook-share:hover i {
+	color: #fff!important;
+}
+
+.sharing-default-minimal .republicpg-social .twitter-share:hover i {
+	color: #fff!important;
+}
+
+.sharing-default-minimal .republicpg-social .google-plus-share:hover i {
+	color: #fff!important;
+}
+
+.sharing-default-minimal .republicpg-social .linkedin-share:hover i {
+	color: #fff!important;
+}
+
+.sharing-default-minimal .republicpg-social .pinterest-share:hover i {
+	color: #fff!important;
+}
+
+body .sharing-default-minimal .n-shortcode {
+	border-right: none!important;
+	top: -1px;
+	position: relative;
+}
+
+body .sharing-default-minimal .republicpg-love {
+	border: 2px solid rgba(0,0,0,0.2);
+	padding: 7px 9px 7px 30px!important !important;
+	color: #000!important;
+	margin-top: 50px;
+	height: auto!important;
+	font-size: 12px;
+	margin-right: 10px;
+	line-height: 20px;
+	position: relative;
+	transition: all 0.2s ease;
+}
+
+body .sharing-default-minimal .republicpg-love.loved {
+	border-color: transparent;
+}
+
+body .sharing-default-minimal .republicpg-love i {
+	font-size: 14px!important;
+	margin-right: 8px!important;
+	line-height: 20px!important;
+	transition: all 0.2s ease;
+}
+
+.sharing-default-minimal .republicpg-love i,
+body .sharing-default-minimal .hovered .republicpg-love i {
+	color: rgba(0,0,0,0.2)!important;
+	transform: scale(1)!important;
+	opacity: 1!important;
+	position: relative!important;
+}
+
+.sharing-default-minimal .total_loves {
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 100px;
+	padding: 2px 8px!important !important;
+	margin-left: 28px;
+	float: right;
+	line-height: 12px;
+	transition: all 0.2s ease;
+}
+
+.sharing-default-minimal .republicpg-love .total_loves .republicpg-love-count {
+	font-size: 10px!important;
+	opacity: 1;
+}
+
+.sharing-default-minimal .republicpg-love:hover {
+	background-color: #000!important;
+}
+
+.sharing-default-minimal .republicpg-love.loved .total_loves,
+.sharing-default-minimal .republicpg-love:hover .total_loves {
+	background-color: rgba(255,255,255,0.25);
+}
+
+.sharing-default-minimal .republicpg-love .icon-blueprint-heart-2:before {
+	content: "\e00e"!important;
+}
+
+.sharing-default-minimal .republicpg-love.loved,
+.sharing-default-minimal .republicpg-love.loved i,
+.sharing-default-minimal .republicpg-love:hover,
+.sharing-default-minimal .republicpg-love:hover i,
+body .sharing-default-minimal .hovered .republicpg-love.loved i {
+	color: #fff!important;
+}
+
+.sharing-default-minimal .total_loves {
+	display: block;
+}
+
+.sharing-default-minimal .total_loves {
+	color: #fff;
+}
+
+.ascend .container-wrap .bottom-meta #author-bio #author-info {
+	float: left;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 20px!important;
+}
+
+.single-post .bottom-meta a {
+	color: inherit;
+}
+
+.single-post .container-wrap .bottom-meta #author-bio #author-info {
+	width: auto!important;
+	float: none;
+	display: inline-block!important;
+}
+
+#page-header-bg[data-post-hs="default_minimal"] h1,
+body.single-post .heading-title[data-header-style="default_minimal"] .entry-title {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.sharing-default-minimal {
+	text-align: left;
+}
+
+.single-post .bottom-meta .sharing-default-minimal .republicpg-love {
+	margin-top: 0!important;
+	font-size: 14px!important;
+	line-height: 1px;
+}
+
+.single-post .bottom-meta .sharing-default-minimal {
+	padding-top: 0;
+}
+
+.single-post .bottom-meta > div:last-child {
+	margin-bottom: 60px;
+}
+
+.single-post .bottom-meta .sharing-default-minimal[data-bottom-space="false"] {
+	margin-bottom: 0;
+}
+
+.sharing-default-minimal .republicpg-social > a .count {
+	display: none!important;
+}
+
+.sharing-default-minimal .republicpg-social > a {
+	border: 2px solid #000!important;
+	padding: 9px 30px!important !important;
+	margin-right: 10px;
+}
+
+body[data-button-style^="rounded"] .sharing-default-minimal .republicpg-social > a,
+body[data-button-style="rounded"] .sharing-default-minimal .republicpg-love {
+	border-radius: 100px;
+	line-height: 1px;
+	margin: 10px 13px 10px 0;
+	height: auto;
+	display: inline-block;
+}
+
+.sharing-default-minimal .republicpg-love,
+.sharing-default-minimal .republicpg-social > a {
+	line-height: 1px;
+	margin: 10px 13px 10px 0;
+	height: auto;
+	display: inline-block;
+}

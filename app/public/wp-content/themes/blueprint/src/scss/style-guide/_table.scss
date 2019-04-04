@@ -1,0 +1,243 @@
+body:not(.woocommerce-cart) .main-content .style-guide-table {
+  table {
+
+    border         : 0;
+    font-size      : 100%;
+    font           : inherit;
+    vertical-align : baseline;
+    border-collapse: collapse;
+    border-spacing : 0;
+    width          : 100%;
+    max-width      : 100%;
+
+    line-height    : 1.25;
+
+    thead {
+      border-bottom: 2px solid $black;
+
+      tr {
+        &:hover {
+          // opacity         : 0.01;
+          color           : $black;
+          background-color: none;
+          box-shadow      : none;
+          transform       : none;
+          z-index         : 2;
+          border          : 0;
+        }
+
+        th {
+          font-size      : 0.875rem;
+          font-weight    : 600;
+          text-align     : left;
+          line-height    : 1.25;
+          padding        : 1rem 3rem 1rem 0;
+          color          : $black;
+
+          white-space    : nowrap;
+          text-transform : uppercase;
+          border         : 0;
+
+          border-width   : 0;
+
+          border-color   : none;
+          border-collapse: collapse;
+
+          &:first-child {
+            border-left      : 0;
+            border-color     : none;
+            border-left-style: solid;
+            border-left-width: 0;
+          }
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        border-bottom: 1px solid $grey-200;
+
+        transition   : all 0.2s;
+        opacity      : 1.0;
+
+        &:hover {
+          // opacity         : 0.01;
+          color           : $black;
+          background-color: RGBA(84, 110, 122, 0.05);
+          box-shadow      : 0 2px 4px rgba(0,0,0,.08), 0 12px 20px rgba(0,0,0,.12);
+          transform       : scale(1.01);
+          z-index         : 2;
+          border          : 0;
+        }
+
+        td {
+          font-size   : 0.875rem;
+          padding     : 1rem 3rem 1rem 0;
+          line-height : 1.25;
+          text-align  : left;
+          border      : 0;
+          border-top  : none;
+          border-left : none;
+          padding-left: 0.5rem;
+
+          strong {
+            letter-spacing: 0;
+          }
+
+          &:first-child {
+            font-weight      : 600;
+            white-space      : nowrap;
+            border-left      : 0 solid;
+            border-color     : none;
+            border-left-style: solid;
+            border-left-width: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*! Style Guide Table */
+
+body:not(.woocommerce-cart) .main-content .style-guide-color-table {
+  margin-bottom  : 20px;
+  width          : 100%;
+  border-collapse: collapse;
+  border-spacing : 0;
+
+  thead {
+    border-bottom: 2px solid $black;
+
+    tr {
+      &:hover {
+        // opacity         : 0.01;
+        color           : $black;
+        background-color: none;
+        box-shadow      : none;
+        transform       : none;
+        z-index         : 2;
+        border          : 0;
+      }
+
+      th {
+        font-size      : 0.875rem;
+        font-weight    : 600;
+        text-align     : left;
+        line-height    : 1.25;
+        padding        : 1rem 3rem 1rem 0;
+        color          : $black;
+
+        white-space    : nowrap;
+        text-transform : uppercase;
+        border         : 0;
+
+        border-width   : 0;
+
+        border-color   : none;
+        border-collapse: collapse;
+
+        &:first-child {
+          border-left      : 0;
+          border-color     : none;
+          border-left-style: solid;
+          border-left-width: 0;
+        }
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      transition: all 0.2s;
+      opacity   : 1.0;
+
+      &:hover {
+        opacity   : 0.9;
+        box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 12px 20px rgba(0,0,0,.12);
+        transform : scale(1.01);
+        z-index   : 2;
+        border    : 0;
+      }
+    }
+
+    td {
+      font-size  : 0.75rem;
+      font-weight: 400;
+      padding    : 20px;
+
+    }
+
+  }
+}
+
+body:not(.woocommerce-cart) .main-content .style-guide-table--font-scale-table {
+  margin-bottom  : 20px;
+  width          : 100%;
+  border-collapse: collapse;
+  border-spacing : 0;
+
+  thead {
+    border-bottom: 2px solid $black;
+
+    tr {
+      &:hover {
+        // opacity         : 0.01;
+        color           : $black;
+        background-color: none;
+        box-shadow      : none;
+        transform       : none;
+        z-index         : 2;
+        border          : 0;
+      }
+
+      th {
+        font-size      : 0.875rem;
+        font-weight    : 600;
+        text-align     : left;
+        line-height    : 1.25;
+        padding        : 1rem 3rem 1rem 0;
+        color          : $black;
+
+        white-space    : nowrap;
+        text-transform : uppercase;
+        border         : 0;
+
+        border-width   : 0;
+
+        border-color   : none;
+        border-collapse: collapse;
+
+        &:first-child {
+          border-left      : 0;
+          border-color     : none;
+          border-left-style: solid;
+          border-left-width: 0;
+        }
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      transition: all 0.2s;
+      opacity   : 1.0;
+
+      &:hover {
+        opacity   : 0.9;
+        box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 12px 20px rgba(0,0,0,.12);
+        transform : scale(1.01);
+        z-index   : 2;
+        border    : 0;
+      }
+    }
+
+    td {
+      // font-size  : 0.75rem;
+      font-weight: 400;
+      padding    : 20px;
+
+    }
+
+  }
+}

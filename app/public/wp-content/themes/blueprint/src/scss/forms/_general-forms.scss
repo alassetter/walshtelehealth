@@ -1,0 +1,103 @@
+/***************** General Forms ******************/
+input[type=date],
+input[type=email],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=url],
+textarea {
+	padding           : $input-padding;
+	width             : 100%;
+	line-height       : $input-line-height;
+	font-family       : $input-font-family;
+	font-weight       : $input-font-weight;
+	line-height       : $input-line-height;
+	color             : $input-txt-color;
+
+	text-transform    : uppercase;
+	border            : none;
+	transition        : all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+}
+
+.original input[type=date]:focus,
+.original input[type=email]:focus,
+.original input[type=password]:focus,
+.original input[type=search]:focus,
+.original input[type=tel]:focus,
+.original input[type=text]:focus,
+.original input[type=url]:focus,
+.original textarea:focus {
+	background-color: #ebebeb;
+}
+
+button[type=submit],
+input[type="button"],
+input[type=submit] {
+	background-color     : #333;
+	padding              : 7px 11px;
+	border               : none;
+	color                : $submit-btn-color;
+	cursor               : pointer;
+	transition           : all 0.45s cubic-bezier(0.25,1,0.33,1);
+	-webkit-transition   : all 0.45s cubic-bezier(0.25,1,0.33,1);
+	width                : auto;
+	font-size            : 12px;
+	border-radius        : 2px;
+	-webkit-border-radius: 2px;
+}
+
+button[type=submit]:hover,
+input[type="button"]:hover,
+input[type=submit]:hover {
+	background-color: $submit-btn-bg-color;
+}
+
+body[data-form-submit="regular"] .container-wrap input[type=submit],
+body[data-form-submit="regular"] .container-wrap button[type=submit],
+body[data-form-submit="see-through"] .container-wrap input[type=submit],
+body[data-form-submit="see-through"] .container-wrap button[type=submit]:not(.search-widget-btn) {
+	padding: 15px 22px;
+}
+
+body[data-form-submit="regular"] input[type=submit]:hover,
+body[data-form-submit="regular"] button[type=submit]:hover {
+	opacity: 0.85;
+}
+
+body[data-form-submit="see-through"] input[type=submit],
+body[data-form-submit="see-through"] button[type=submit]:not(.search-widget-btn) {
+	background-color: transparent!important;
+	border          : 2px solid $brown;
+}
+
+body[data-form-submit="see-through"] input[type=submit]:hover,
+body[data-form-submit="see-through"] button[type=submit]:not(.search-widget-btn):hover {
+	color: $submit-btn-hover-color !important;
+}
+
+select {
+	padding           : 10px;
+	width             : 100%;
+	border            : 0px!important;
+	border            : none!important;
+	font-family       : $input-font-family;
+	font-weight       : 400;
+	font-size         : 12px;
+	line-height       : 22px;
+	color             : $input-txt-color;
+	background-color  : $white;
+	box-shadow        : 0 1px 2px rgba(0,0,0,0.16)!important;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.16)!important;
+	transition        : all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+}
+
+textarea {
+	max-width: 100%;
+}
+
+label span {
+	color: $brown;
+}

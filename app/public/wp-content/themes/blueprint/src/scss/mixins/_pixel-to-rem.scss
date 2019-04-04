@@ -1,0 +1,68 @@
+// PX to REM - Usage: font-size: rem(37px);
+@function rem($px, $base: $base-font-size) {
+    @return ($px / $base) * 1rem;
+}
+
+@function pxem($px) {
+  @return (($px / 16) * 1rem);
+}
+// padding: pxem(150) 0;
+// margin-bottom: pxem(30);
+// padding-bottom: pxem(125);
+
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+
+@mixin fontSize($size) {
+  font-size: $size; //Fallback in px
+  font-size: calculateRem($size);
+}
+
+@mixin h5 {
+  @include din-condensed-400;
+  font-size: pxem(28);
+  line-height: pxem(55);
+  line-height: 1;
+  color: $shadow;
+
+  // @include mq($from: $breakpoint-xsmall) {
+  //   font-size: pxem(18);
+  //   line-height: pxem(55);
+  // }
+  //
+  // @include mq($from: $breakpoint-medium) {
+  //   font-size: pxem(20);
+  //   line-height: 1;
+  // }
+}
+
+@mixin h2 {
+  @include domaine-display-400;
+  font-size: pxem(47);
+  line-height: pxem(47/1);
+  padding-bottom: pxem(50);
+
+  color: $shadow;
+
+  @include mq($from: $breakpoint-xsmall) {
+    font-size: pxem(28);
+    line-height: pxem(55/1);
+  }
+
+  @include mq($from: $breakpoint-medium) {
+    font-size: pxem(30/1);
+
+  }
+  //
+  // @include mq($from: $breakpoint-large) {
+  //   font-size: pxem(140);
+  //   line-height: pxem(183);
+  // }
+
+  @include mq($from: $breakpoint-xlarge) {
+    font-size: pxem(40);
+  }
+}

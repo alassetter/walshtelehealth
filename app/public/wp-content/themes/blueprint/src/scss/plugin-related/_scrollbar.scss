@@ -1,0 +1,10 @@
+/***************** Scrollbar ******************/
+#ascrail2000 {
+	background-color: #555;
+	width: 16px!important;
+	z-index: 10000000!important;
+}
+
+#ascrail2000.z-index-adj {
+	z-index: 100000000!important;
+}

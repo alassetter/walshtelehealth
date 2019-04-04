@@ -1,0 +1,81 @@
+
+@mixin domaine-display-400 {
+  font-family: $domaine-display;
+  font-style:normal;
+  @include font-weight(400);
+}
+
+@mixin domaine-display-med {
+  font-family: $domaine-display-med;
+  font-style:normal;
+  @include font-weight(500);
+}
+
+@mixin din-2014-300 {
+  font-family: $din-2014;
+  font-style:normal;
+  @include font-weight(300);
+}
+@mixin din-2014-400 {
+  font-family: $din-2014;
+  font-style:normal;
+  @include font-weight(400);
+}
+@mixin din-2014-600 {
+  font-family: $din-2014;
+  font-style:normal;
+  @include font-weight(600);
+}
+@mixin din-condensed-300 {
+  font-family: $din-condensed;
+  font-style:normal;
+  @include font-weight(300);
+}
+
+@mixin din-condensed-400 {
+  font-family: $din-condensed;
+  font-style:normal;
+  @include font-weight(400);
+}
+
+@mixin din-pro-bold {
+  font-family: $din-pro-bold;
+  font-style:normal;
+  @include font-weight(700);
+}
+
+// h2 {
+//   @include din-2014-300;
+// }
+// @mixin domaine {
+//   font-family: 'Domaine';
+//   font-weight: 100;
+// }
+
+// @mixin title-main {
+//   @include domaine;
+//   font-size: pxem(54);
+//   line-height: pxem(55);
+//   font-weight: 100;
+//   line-height: 1;
+//   color: $text-white;
+//
+//   @include mq($from: $breakpoint-xsmall) {
+//     font-size: pxem(60);
+//     line-height: pxem(55);
+//   }
+//
+//   @include mq($from: $breakpoint-medium) {
+//     font-size: pxem(100);
+//     line-height: 1;
+//   }
+//   //
+//   // @include mq($from: $breakpoint-large) {
+//   //   font-size: pxem(140);
+//   //   line-height: pxem(183);
+//   // }
+//
+//   @include mq($from: $breakpoint-xlarge) {
+//     font-size: pxem(140);
+//   }
+// }

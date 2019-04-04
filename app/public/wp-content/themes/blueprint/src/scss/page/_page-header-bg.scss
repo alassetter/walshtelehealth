@@ -1,0 +1,41 @@
+/***************** Page Header Background ******************/
+#page-header-bg .subheader,
+.republicpg-box-roll .overlaid-content .subheader {
+	font-size: 28px;
+	line-height: 28px;
+	color: #fff!important;
+	font-family: 'Open Sans';
+	font-weight: 300;
+}
+
+#page-header-bg[data-text-alignment="center"],
+.page-header-no-bg[data-text-alignment="center"],
+.republicpg-box-roll .overlaid-content[data-text-alignment="center"] {
+	text-align: center;
+}
+
+#page-header-bg[data-text-alignment="right"],
+.page-header-no-bg[data-text-alignment="right"],
+.republicpg-box-roll .overlaid-content[data-text-alignment="right"] {
+	text-align: right;
+}
+
+#page-header-bg[data-text-alignment="center"] .span_6,
+.page-header-no-bg[data-text-alignment="center"] .span_6,
+.republicpg-box-roll .overlaid-content[data-text-alignment="center"] .span_6 {
+	left: 0;
+	width: 100%!important;
+}
+
+#page-header-bg[data-text-alignment="center"] h1,
+.republicpg-box-roll .overlaid-content[data-text-alignment="center"] h1 {
+	margin-bottom: 12px!important;
+}
+
+#page-header-bg[data-text-alignment="center"] h1,
+.page-header-bg[data-text-alignment="center"] .subheader,
+.republicpg-box-roll .overlaid-content[data-text-alignment="center"] .subheader {
+	max-width: 900px;
+	margin: 0 auto;
+	display: block;
+}

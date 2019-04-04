@@ -1,0 +1,96 @@
+/***************** Search-Widget ******************/
+.newsletter-widget form,
+.widget_search .search-form {
+	position: relative;
+	overflow: hidden;
+}
+
+body[data-button-style^="rounded"].ascend .container-wrap .search-form input[type="submit"] {
+	border-radius: 0px!important;
+	-webkit-border-radius: 0px!important;
+}
+
+.widget_search .search-form input[type=text] {
+	padding-right: 45px!important;
+	margin: 0!important !important;
+}
+
+.newsletter-widget form input[type=email] {
+	padding-right: 75px!important;
+	margin: 0!important !important;
+}
+
+.widget_search .search-form button[type=submit] .text,
+body.search-no-results .search-form button[type=submit] .text {
+	display: none;
+}
+
+body .widget_search .search-form button[type=submit] {
+	padding: 14px!important !important;
+}
+
+body.search-no-results .search-form button[type=submit] {
+	padding: 14px!important !important;
+}
+
+.widget_search .search-form button[type=submit] .icon-blueprint-search,
+body .widget_search .search-form button[type=submit],
+body.search-no-results .search-form button[type=submit],
+body.search-no-results .search-form button[type=submit] .icon-blueprint-search {
+	background-color: transparent!important;
+}
+
+body .widget_search .search-form button[type=submit]:hover,
+body.search-no-results .search-form button[type=submit]:hover {
+	-webkit-transform: translateY(-50%)!important;
+	transform: translateY(-50%)!important;
+	background-color: transparent!important;
+	box-shadow: none!important;
+}
+
+body .widget_search .search-form button[type=submit],
+body.search-no-results #search-results .search-form button[type=submit] {
+	transform: none;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	line-height: 0;
+}
+
+.widget_search .search-form button[type=submit] .icon-blueprint-search,
+body.search-no-results .search-form button[type=submit] .icon-blueprint-search {
+	margin-top: 1px;
+	display: block;
+	font-size: 17px;
+}
+
+.widget_search .search-form button[type=submit] .icon-blueprint-search:before,
+body.search-no-results .search-form button[type=submit] .icon-blueprint-search:before {
+	content: "\e906";
+}
+
+.widget_search .search-form,
+body.search-no-results .search-form {
+	overflow: visible;
+}
+
+.newsletter-widget form input[type=submit],
+.widget_search .search-form button[type=submit],
+.widget_search .search-form input[type=submit],
+body[data-form-style="minimal"] .main-content .post-password-form input[type=submit] {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 0!important !important;
+	line-height: 22px;
+	padding: 10px 11px;
+}
+
+body[data-form-style="minimal"] .main-content .post-password-form input[type=submit] {
+	top: auto;
+	bottom: 35px;
+}
+
+.main-content > .row > form.post-password-form {
+	padding: 15% 0;
+}

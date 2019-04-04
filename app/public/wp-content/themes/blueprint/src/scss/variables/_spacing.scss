@@ -1,0 +1,23 @@
+/* ------------------------------------------------------------ *\
+	Spacing and Layout Scales
+\* ------------------------------------------------------------ */
+
+$spacing-baseline: 1rem !default;
+
+$spacing-1       : $spacing-baseline * 0.125 !default;
+$spacing-2       : $spacing-baseline * 0.25 !default;
+$spacing-3       : $spacing-baseline * 0.5 !default;
+$spacing-4       : $spacing-baseline * 0.75 !default;
+$spacing-5       : $spacing-baseline !default;
+$spacing-6       : $spacing-baseline * 1.5 !default;
+$spacing-7       : $spacing-baseline * 2 !default;
+$spacing-8       : $spacing-baseline * 2.5 !default;
+$spacing-9       : $spacing-baseline * 3 !default;
+
+$layout-1        : $spacing-baseline !default;
+$layout-2        : $spacing-baseline * 1.5 !default;
+$layout-3        : $spacing-baseline * 2 !default;
+$layout-4        : $spacing-baseline * 3 !default;
+$layout-5        : $spacing-baseline * 4 !default;
+$layout-6        : $spacing-baseline * 6 !default;
+$layout-7        : $spacing-baseline * 10 !default;

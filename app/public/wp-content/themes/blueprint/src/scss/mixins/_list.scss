@@ -1,0 +1,15 @@
+@mixin no-bullets {
+	list-style: none;
+}
+
+@mixin no-margin-padding() {
+		margin: 0;
+		padding: 0;
+}
+
+@mixin no-padding() {
+		padding: 0;
+}
+@mixin no-margin() {
+		margin: 0;
+}

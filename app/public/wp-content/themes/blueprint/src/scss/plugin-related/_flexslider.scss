@@ -1,0 +1,174 @@
+/***************** Flexslider ******************/
+.flex-gallery {
+	margin: 0;
+	padding: 0;
+}
+
+.flex-gallery .slides > li {
+	display: none;
+	-webkit-backface-visibility: hidden;
+}
+
+.flex-gallery .slides img {
+	width: 99.8%;
+	display: block;
+}
+
+.flex-pauseplay span {
+	text-transform: capitalize;
+}
+
+.slides:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+html[xmlns] .slides {
+	display: block;
+}
+
+* html .slides {
+	height: 1%;
+}
+
+.no-js .slides > li:first-child {
+	display: block;
+}
+
+.flex-gallery {
+	margin: 0 0 15px;
+	position: relative;
+	zoom: 1;
+	background-color: transparent;
+}
+
+.flex-viewport {
+	max-height: 2000px;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.loading .flex-viewport {
+	max-height: 300px;
+}
+
+.flex-gallery .slides {
+	zoom: 1;
+}
+
+.flex-gallery ul {
+	position: relative;
+	z-index: 1000;
+	margin: 0;
+}
+
+.flex-gallery ul.flex-direction-nav {
+	margin: 0 !important;
+	position: absolute !important;
+	top: 8px;
+}
+
+.flex-gallery ul li {
+	list-style: none;
+}
+
+.flex-gallery ul li img {
+	margin-bottom: 0px!important;
+}
+
+.carousel li {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.flex-control-nav {
+	display: none;
+}
+
+.flex-direction-nav {
+	*height: 0;
+}
+
+.flex-direction-nav a {
+	display: block;
+	line-height: 22px;
+	position: relative;
+	background-color: #27CFC3;
+	height: 25px;
+	width: 25px;
+	text-align: center;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	border-radius: 1px 1px 1px 1px;
+	-webkit-border-radius: 1px 1px 1px 1px;
+}
+
+.flex-direction-nav a i {
+	line-height: 29px;
+	color: #fff;
+	background-color: transparent!important;
+}
+
+.flex-direction-nav a.flex-next {
+	padding-left: 2px;
+}
+
+.flex-direction-nav a.flex-prev {
+	padding-right: 2px;
+}
+
+.flex-direction-nav li {
+	float: left;
+	margin-left: 7px!important;
+}
+
+.flex-direction-nav {
+	margin: -32px 0 0;
+}
+
+.flex-direction-nav a:hover {
+	background-color: #333!important;
+}
+
+.flex-direction-nav .flex-next span {
+	background-image: url("img/icons/slider-arrows-small.png")!important;
+	background-position: right top;
+	top: 9px;
+	right: 9px;
+	position: absolute;
+	display: block;
+	height: 15px;
+	width: 15px;
+	z-index: 100;
+}
+
+.flex-direction-nav .flex-prev span {
+	background-image: url("img/icons/slider-arrows-small.png")!important;
+	background-position: left top;
+	top: 9px;
+	left: 9px;
+	position: absolute;
+	display: block;
+	height: 15px;
+	width: 15px;
+	z-index: 100;
+}
+
+iframe,
+iframe.iframe-embed {
+	max-width: 100%;
+}
+
+.main-content #sidebar iframe[src],
+.wc-braintree-hosted-field iframe,
+html:not(.js) .main-content iframe[src] {
+	opacity: 1;
+}
+
+.iframe-embed-standard iframe {
+	width: 100%!important;
+}

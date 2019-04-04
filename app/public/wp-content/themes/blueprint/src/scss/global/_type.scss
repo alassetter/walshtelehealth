@@ -1,0 +1,259 @@
+.base-font {
+	font-family: $base-font;
+}
+
+body {
+	font-size             : 16px;
+	-webkit-font-smoothing: antialiased;
+	font-family           : $base-font;
+	font-weight           : 300;
+	background-color      : $white;
+	line-height           : 26px;
+}
+
+p {
+	-webkit-font-smoothing: antialiased;
+}
+
+body .ui-widget {
+	font-family: $base-font;
+	font-weight: 300;
+}
+
+.subheader {
+	color        : #6F6F6F;
+	margin-bottom: 15px;
+}
+
+a {
+	color             : transparent;
+	text-decoration   : none;
+	transition        : color 0.2s;
+	-webkit-transition: color 0.2s;
+}
+
+a:hover {
+	color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+	letter-spacing        : 0;
+	// font-weight           : normal;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+body.single article.post .content-inner > h2,
+body.single article.post .content-inner > h3,
+body.single article.post .content-inner > h4,
+body.single article.post .content-inner > h5,
+body.single article.post .content-inner > h6,
+body.single article.post .wpb_text_column h2,
+body.single article.post .wpb_text_column h3,
+body.single article.post .wpb_text_column h4,
+body.single article.post .wpb_text_column h5,
+body.single article.post .wpb_text_column h6 {
+	margin-top: 10px;
+}
+
+// .bold,
+// b,
+// strong {
+//   font-family: 'Open Sans';
+//   font-weight: 600;
+// }
+
+// .uppercase {
+//   -webkit-font-smoothing: antialiased;
+//   font-family           : 'Open Sans';
+//   font-weight           : 700;
+//   text-transform        : uppercase;
+// }
+
+// .tiny {
+//   font-size  : 14px!important;
+//   line-height: 22px!important;
+// }
+
+body h1.light,
+body h2.light,
+body h3.light,
+body h4.light,
+body h5.light,
+body h6.light,
+p.light {
+	text-transform        : none;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+body h1.jumbo,
+body h2.jumbo,
+body h3.jumbo,
+body h4.jumbo,
+body h5.jumbo,
+body h6.jumbo,
+p.jumbo {
+	font-size  : 100px!important;
+	line-height: 110px!important;
+}
+
+h1.light {
+	font-size    : 34px;
+	margin-bottom: 30px;
+}
+
+h2.light {
+	font-size     : 28px;
+	margin-bottom : 30px;
+	letter-spacing: 0.5px;
+}
+
+h3.light {
+	font-size     : 24px;
+	margin-bottom : 15px;
+	letter-spacing: 0.5px;
+}
+
+h4.light {
+	font-size     : 18px;
+	margin-bottom : 7px;
+	letter-spacing: 0.5px;
+}
+
+h5.light {
+	font-size     : 16px;
+	margin-bottom : 7px;
+	letter-spacing: 0.5px;
+}
+
+h6.light {
+	font-size     : 14px;
+	margin-bottom : 7px;
+	letter-spacing: 0.5px;
+}
+
+body h1 em,
+body h2 em,
+body h3 em,
+body h4 em {
+	font-size: inherit;
+}
+
+h1.uppercase {
+	letter-spacing: 3px;
+}
+
+h2.uppercase {
+	letter-spacing: 2.5px;
+}
+
+h3.uppercase {
+	letter-spacing: 2px;
+}
+
+h4.uppercase {
+	letter-spacing: 2px;
+}
+
+h5.uppercase {
+	letter-spacing: 1.3px;
+}
+
+h6.uppercase {
+	letter-spacing: 1.3px;
+}
+
+h1 .republicpg-button,
+h2 .republicpg-button,
+h3 .republicpg-button,
+h4 .republicpg-button {
+	margin-left: 13px;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+p {
+	padding-bottom: 27px;
+}
+
+// Font Size
+.fs-1 {
+	font-size: $fs-1;
+}
+
+.fs-2 {
+	font-size: $fs-2;
+}
+
+.fs-3 {
+	font-size: $fs-3;
+}
+
+.fs-4 {
+	font-size: $fs-4;
+}
+
+.fs-5 {
+	font-size: $fs-5;
+}
+
+.fs-6 {
+	font-size: $fs-6;
+}
+
+.fs-7 {
+	font-size: $fs-7;
+}
+
+.fs-8 {
+	font-size: $fs-8;
+}
+
+.fs-9 {
+	font-size: $fs-9;
+}
+
+.fs-10 {
+	font-size: $fs-10;
+}
+
+.fs-11 {
+	font-size: $fs-11;
+}
+
+.fs-12 {
+	font-size: $fs-12;
+}
+
+.fs-13 {
+	font-size: $fs-13;
+}
+
+.fs-14 {
+	font-size: $fs-14;
+}
+
+.fs-15 {
+	font-size: $fs-15;
+}
+
+.fs-16 {
+	font-size: $fs-16;
+}
+
+.fs-17 {
+	font-size: $fs-17;
+}
+
+.fs-18 {
+	font-size: $fs-18;
+}

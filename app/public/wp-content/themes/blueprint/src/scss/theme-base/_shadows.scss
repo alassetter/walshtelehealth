@@ -1,0 +1,43 @@
+/*-------------------------------------------------------------------------*/
+/*	Shadows
+/*-------------------------------------------------------------------------*/
+.shadow-type {
+  display        : flex;
+  justify-content: space-around;
+  align-items    : flex-end;
+  flex-wrap      : wrap;
+  max-width      : 100%;
+  margin         : 4.5rem auto;
+}
+
+.shadow-type--card {
+  width           : 10rem;
+  height          : 10rem;
+  display         : flex;
+  flex-direction  : column;
+  align-items     : center;
+  justify-content : center;
+  background-color: $white;
+  color           : $grey-600;
+  margin          : 0.5rem;
+}
+
+.shadow-1 {
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.10);
+}
+
+.shadow-2 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.10);
+}
+
+.shadow-3 {
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.10);
+}
+
+.shadow-4 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10);
+}
+
+.shadow-5 {
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.10);
+}

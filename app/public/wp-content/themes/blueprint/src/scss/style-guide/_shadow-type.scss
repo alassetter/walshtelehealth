@@ -1,0 +1,30 @@
+.shadow-type {
+  display        : flex;
+  justify-content: space-around;
+  align-items    : flex-end;
+  flex-wrap      : wrap;
+  max-width      : 1080px;
+  padding        : 1rem;
+  margin         : auto;
+}
+
+.shadow-type--card {
+  width           : 15rem;
+  height          : 15rem;
+  display         : flex;
+  flex-direction  : column;
+  align-items     : center;
+  justify-content : center;
+  background-color: $white;
+  color           : $grey-600;
+  margin          : 1rem;
+
+  p {
+    padding: 0;
+    margin : 0;
+  }
+
+  p:nth-of-type(2) {
+    color: $grey-300;
+  }
+}

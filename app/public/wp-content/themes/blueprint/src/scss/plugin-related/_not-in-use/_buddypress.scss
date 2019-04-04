@@ -1,0 +1,119 @@
+/***************** BuddyPress ******************/
+/* BBPress */
+.bbp-author-avatar img {
+	margin-bottom: -3px!important;
+}
+
+body #bbpress-forums fieldset.bbp-form {
+	border: 1px solid #D9D9D9;
+}
+
+#bbpress-forums fieldset.bbp-form p {
+	padding-bottom: 10px;
+}
+
+#bbpress-forums li.bbp-footer,
+#bbpress-forums li.bbp-header {
+	font-weight: normal!important;
+}
+
+#bbpress-forums li.bbp-body ul.forum,
+#bbpress-forums li.bbp-body ul.topic {
+	padding-left: 15px;
+}
+
+#bbpress-forums div.bbp-forum-header,
+#bbpress-forums div.bbp-reply-header,
+#bbpress-forums div.bbp-topic-header {
+	background-color: #f4f4f4!important;
+}
+
+.bbp-topic-meta {
+	margin-top: 1px!important;
+}
+
+#bbpress-forums li.bbp-header {
+	background-color: #f1f1f1!important;
+}
+
+#bbpress-forums .wp-editor-container,
+#bbpress-forums ul.bbp-forums,
+#bbpress-forums ul.bbp-lead-topic,
+#bbpress-forums ul.bbp-replies,
+#bbpress-forums ul.bbp-search-results,
+#bbpress-forums ul.bbp-topics {
+	border: 1px solid #DDD!important;
+}
+
+.bbp-topic-permalink {
+	font-size: 14px;
+}
+
+.topic .bbp-topic-title {
+	margin-top: 2px!important;
+}
+
+.bbp-template-notice p {
+	padding: 4px!important !important;
+}
+
+#bbp_search_submit,
+#members_search_submit {
+	padding: 10px 11px!important !important;
+}
+
+#bbpress-forums #subscription-toggle {
+	color: #ccc;
+}
+
+body #bbpress-forums fieldset.bbp-form {
+	padding-bottom: 20px;
+}
+/* BuddyPress */
+body #buddypress form.bp-dir-search-form button[type="submit"] {
+	padding: 10px 0.7em!important !important;
+}
+
+.material .buddypress-wrap form.bp-dir-search-form input[type="search"]:focus {
+	box-shadow: none;
+}
+
+.buddypress-wrap form.bp-dir-search-form button[type=submit] span {
+	line-height: 1em;
+}
+
+body[data-form-style="minimal"] #buddypress input[type="text"],
+body[data-form-style="minimal"] #buddypress input[type="password"],
+body[data-form-style="minimal"] #buddypress input[type="email"] {
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+}
+
+#buddypress input[type=submit]:hover {
+	color: #fff;
+}
+
+#buddypress .activity-update-form #whats-new-submit input[type=submit] {
+	line-height: 1em;
+}
+
+body[data-form-style="minimal"] #buddypress textarea {
+	background-color: rgba(0,0,0,0.018);
+	border-radius: 4px;
+	border: 1px solid rgba(0,0,0,0.05);
+	padding: 10px!important !important;
+	box-sizing: border-box!important;
+	-webkit-box-sizing: border-box!important;
+}
+
+.buddypress-wrap .bp-feedback.bp-messages p {
+	padding-bottom: 0;
+}
+
+#buddypress form#whats-new-form textarea {
+	width: 100%!important;
+}
+
+.buddypress h1 {
+	margin-bottom: 30px;
+}

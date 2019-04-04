@@ -1,0 +1,201 @@
+/***************** Sidebar ******************/
+#sidebar div ul {
+	margin-left: 0;
+}
+
+#sidebar div ul li {
+	padding: 8px 0;
+	list-style: none;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+#sidebar > div {
+	margin-bottom: 50px;
+}
+
+#sidebar > div:last-child {
+	margin-bottom: 0;
+}
+
+#sidebar #sidebar-inner {
+	margin-bottom: 0px!important;
+}
+
+#sidebar h4 {
+	margin-bottom: 10px;
+	color: #999;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+#sidebar .Simple_Flickr_Photos h4,
+#sidebar .widget_recent_comments h4 {
+	margin-bottom: 16px;
+}
+
+#sidebar .widget li.recentcomments {
+	padding: 15px!important !important;
+	margin-bottom: 22px;
+	border: none;
+	position: relative;
+	display: block;
+	background: none repeat scroll 0 0 rgba(0,0,0,0.02);
+}
+
+#sidebar .widget li:first-child {
+	padding-top: 0;
+}
+
+#sidebar .widget .tagcloud a,
+.post-tags a {
+	background-color: #333;
+	color: #FFF;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	line-height: 22px;
+	margin: 3px 3px 0 0;
+	font-size: 8pt!important;
+	padding: 5px 7px;
+	position: relative;
+	text-transform: capitalize;
+	transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+#sidebar .widget_tag_cloud:after {
+	display: block;
+	height: 0;
+	clear: both;
+	content: "";
+	visibility: hidden;
+}
+
+#sidebar .widget .tagcloud a:hover,
+.post-tags a:hover {
+	background-color: #27CFC3;
+}
+
+#sidebar .widget input[type=email],
+#sidebar .widget input[type=text] {
+	padding: 10px;
+	width: 100%;
+}
+
+#sidebar .widget form p {
+	padding-bottom: 15px;
+}
+
+#sidebar .widget.widget_categories ul ul,
+#sidebar .widget.widget_nav_menu ul ul,
+#sidebar .widget.widget_pages ul ul {
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+#sidebar .widget.widget_categories li,
+#sidebar .widget.widget_nav_menu li,
+#sidebar .widget.widget_pages li {
+	border-bottom: 0px!important;
+	padding: 0;
+}
+
+#sidebar .widget.widget_categories li a,
+#sidebar .widget.widget_nav_menu li a,
+#sidebar .widget.widget_pages li a {
+	padding: 8px 0;
+	display: block;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+#sidebar .widget.widget_categories > ul > li:first-child > a,
+#sidebar .widget.widget_nav_menu > ul > li:first-child > a,
+#sidebar .widget.widget_pages > ul > li:first-child > a {
+	padding-top: 0;
+}
+
+#sidebar.left-sidebar {
+	float: left;
+}
+
+.post-area.col_last {
+	float: right;
+}
+
+#sidebar > .widget_media_image {
+	text-align: center;
+}
+
+body[data-ext-responsive="true"].single-post .container-wrap.no-sidebar .post-area,
+body[data-ext-responsive="true"].single-post .container-wrap.no-sidebar .comment-list > li,
+body[data-ext-responsive="true"].single-post.material .container-wrap.no-sidebar .comment-wrap h3#comments,
+body[data-ext-responsive="true"].single-post.material .comment-wrap #respond,
+body[data-ext-responsive="true"].single-post #page-header-bg[data-post-hs="default_minimal"] h1,
+body[data-ext-responsive="true"].single-post.material #page-header-bg.fullscreen-header h1,
+body[data-ext-responsive="true"].single-post .heading-title[data-header-style="default_minimal"] .entry-title {
+	max-width: 1000px;
+	margin: 0 auto!important !important;
+}
+
+#footer-outer #flickr img,
+#sidebar #flickr img,
+.recent_projects_widget img {
+	margin-bottom: 0px!important;
+	display: block;
+	padding: 5px;
+	background-color: #fff;
+	margin-top: 0;
+	margin-left: 0;
+	border: 1px solid #e5e5e5;
+	transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+}
+
+#footer-outer #flickr a:hover img,
+#sidebar #flickr a:hover img,
+.recent_projects_widget a:hover img {
+	border-color: #27CFC3;
+}
+
+#footer-outer #flickr div a,
+#sidebar #flickr div a,
+.recent_projects_widget div a {
+	float: left;
+	margin: 2% 2% 0 0;
+	width: 32%!important;
+}
+
+#footer-outer #flickr div:nth-child(3n+3) a,
+#sidebar #flickr div:nth-child(3n+3) a,
+.recent_projects_widget div a:nth-child(3n+3) {
+	margin-right: 0px!important;
+}
+
+#slide-out-widget-area .recent_projects_widget img {
+	height: auto;
+	width: 100%;
+}
+
+#sidebar select {
+	max-width: 100%;
+}
+
+#footer-outer #flickr:after,
+#sidebar #flickr:after,
+.recent_projects_widget > div:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+.widget_pages ul ul {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 20px!important;
+}

@@ -1,0 +1,93 @@
+# NPM #
+##########
+# Ignore all directories called node_modules in current folder and any subfolders.
+node_modules/
+/node_modules/
+
+# ignore everything in the root except the "blueprint" directory.
+/*
+!src/
+!.editorconfig
+!.eslintignore
+!.eslintrc.js
+!composer.json
+!gulpfile.babel.js
+!package.json
+!wpgulp.config.js
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+*.map
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.env
+
+# OS generated files #
+######################
+**.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+
+# Vim generated files #
+######################
+*.un~
+
+# SASS #
+##########
+**/.sass-cache
+**/.sass-cache/*
+**/.map
+
+# Composer #
+##########
+!assets/js/vendor/
+wpcs/
+/vendor/
+
+# Bower #
+##########
+assets/bower_components/*
+
+# Codekit #
+##########
+/codekit-config.json
+*.codekit
+**.codekit-cache/*
+
+# Compiled Files and Build Dirs #
+##########
+/README.html
+/dist
+/build
+
+# PhpStrom Project Files #
+.idea/
+library/vendors/composer
+assets/img/.DS_Store
+
+blueprint/*
+!blueprint/src/.gitignore
+!blueprint/src/
+blueprint/wp-content/plugins/*
+!blueprint/.editorconfig
+!blueprint/.eslintignore
+!blueprint/.eslintrc.js
+!blueprint/composer.json
+!blueprint/gulpfile.babel.js
+!blueprint/package.json
+!blueprint/wpgulp.config.js

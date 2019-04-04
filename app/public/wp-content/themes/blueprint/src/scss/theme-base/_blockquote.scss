@@ -1,0 +1,26 @@
+blockquote {
+  // font-family: 'Open Sans';
+  font-weight   : 300;
+  line-height   : 40px;
+  font-size     : 22px;
+  padding-left  : 0;
+  letter-spacing: 0.5px;
+  margin-bottom : 30px;
+
+  .small {
+    font-size  : 12.8px;
+    display    : block;
+    line-height: 18px;
+    color      : #a5b2bd;
+
+    &::before {
+      blockquote small:before {
+        content: "\2014 \00A0";
+      }
+    }
+
+    cite {
+      font-style: italic;
+    }
+  }
+}

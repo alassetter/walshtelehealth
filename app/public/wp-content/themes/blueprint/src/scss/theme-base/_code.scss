@@ -1,0 +1,46 @@
+$code-bg: #eaf5f7;
+$code-border: #DCE1EF;
+$snippet-color: #6e7687;
+$snippet-bg: #e9ecef;
+
+code {
+  display      : block;
+  clear        : both;
+  padding      : 20px;
+  margin       : 0 0.1rem;
+  white-space  : pre;
+  background   : $code-bg;
+  border       : 0.08rem solid $code-border;
+  border-radius: 0.1rem;
+  font-family  : monospace, monospace;
+  font         : 12px "Andale Mono",Courier,"Courier New",monospace;
+  overflow     : auto;
+
+}
+
+.snippet {
+  font-size       : 0.75rem;
+  color           : $snippet-color;
+  background-color: $snippet-bg;
+  border-radius   : 3rem;
+  padding         : 0.3rem 0.9rem;
+  line-height     : 1.0;
+  display         : inline-flex;
+  font-family     : "Andale Mono",Courier,"Courier New",monospace;
+  cursor          : default;
+  // user-select     : none;
+
+}
+
+.snippet-block p {
+  font-size       : 0.75rem;
+  color           : $snippet-color;
+  background-color: $snippet-bg;
+  border-radius   : 3rem;
+  padding         : 0.3rem 0.9rem !important;
+  line-height     : 1.0;
+  display         : inline-flex;
+  cursor          : default;
+  // user-select     : none;
+
+}

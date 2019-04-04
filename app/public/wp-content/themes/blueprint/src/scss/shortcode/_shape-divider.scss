@@ -1,0 +1,122 @@
+/***************** Shape-Divider ******************/
+.republicpg-shape-divider-wrap {
+	position: absolute;
+	top: auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 150px;
+	z-index: 3;
+	transform: translateZ(0);
+}
+
+.post-area.span_9 .republicpg-shape-divider-wrap {
+	overflow: hidden;
+}
+
+.republicpg-shape-divider-wrap[data-position="top"] {
+	top: -1px;
+	bottom: auto;
+}
+
+.republicpg-shape-divider-wrap[data-position="top"] {
+	transform: rotate(180deg);
+}
+
+.republicpg-shape-divider-wrap[data-front="true"] {
+	z-index: 50;
+}
+/*fix jagged edges*/
+.republicpg-shape-divider-wrap[data-style="curve"] .republicpg-shape-divider {
+	filter: blur(0.5px);
+	transform: scale(1.03);
+}
+
+.republicpg-shape-divider-wrap[data-style="waves_opacity"] svg path:first-child {
+	opacity: 0.6;
+}
+@media only screen and (min-width: 1000px) {
+	.republicpg-shape-divider-wrap[data-style="clouds"] .republicpg-shape-divider {
+		min-width: 1700px;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.republicpg-shape-divider-wrap[data-style="clouds"] .republicpg-shape-divider {
+		min-width: 800px;
+	}
+}
+@media only screen and (max-width: 690px) {
+	.republicpg-shape-divider-wrap[data-style="clouds"] .republicpg-shape-divider {
+		min-width: 690px;
+	}
+}
+
+.republicpg-shape-divider-wrap[data-style="fan"] svg {
+	width: 102%;
+	left: -1%;
+}
+
+.republicpg-shape-divider-wrap[data-style="fan"] svg polygon:nth-child(2) {
+	opacity: 0.15;
+}
+
+.republicpg-shape-divider-wrap[data-style="fan"] svg rect {
+	opacity: 0.3;
+}
+
+.republicpg-shape-divider-wrap[data-style="mountains"] svg path:first-child {
+	opacity: 0.1;
+}
+
+.republicpg-shape-divider-wrap[data-style="mountains"] svg path:nth-child(2) {
+	opacity: 0.12;
+}
+
+.republicpg-shape-divider-wrap[data-style="mountains"] svg path:nth-child(3) {
+	opacity: 0.18;
+}
+
+.republicpg-shape-divider-wrap[data-style="mountains"] svg path:nth-child(4) {
+	opacity: 0.33;
+}
+
+.republicpg-shape-divider-wrap[data-style="curve_opacity"] svg path:nth-child(1),
+.republicpg-shape-divider-wrap[data-style="waves_opacity_alt"] svg path:nth-child(1) {
+	opacity: 0.15;
+}
+
+.republicpg-shape-divider-wrap[data-style="curve_opacity"] svg path:nth-child(2),
+.republicpg-shape-divider-wrap[data-style="waves_opacity_alt"] svg path:nth-child(2) {
+	opacity: 0.3;
+}
+
+.republicpg-shape-divider {
+	width: 100%;
+	left: 0;
+	bottom: -1px;
+	height: 100%;
+	position: absolute;
+}
+
+.republicpg-shape-divider-wrap.no-color .republicpg-shape-divider {
+	fill: #fff;
+}
+@media only screen and (max-width: 1000px) {
+	.republicpg-shape-divider-wrap:not([data-using-percent-val="true"]) .republicpg-shape-divider {
+		height: 75%;
+	}
+
+	.republicpg-shape-divider-wrap[data-style="clouds"]:not([data-using-percent-val="true"]) .republicpg-shape-divider {
+		height: 55%;
+	}
+}
+@media only screen and (max-width: 690px) {
+	.republicpg-shape-divider-wrap:not([data-using-percent-val="true"]) .republicpg-shape-divider {
+		height: 33%;
+	}
+
+	.republicpg-shape-divider-wrap[data-style="clouds"]:not([data-using-percent-val="true"]) .republicpg-shape-divider {
+		height: 33%;
+	}
+}

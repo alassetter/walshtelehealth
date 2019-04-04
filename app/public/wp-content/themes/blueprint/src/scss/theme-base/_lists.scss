@@ -1,0 +1,25 @@
+ol,
+ul {
+  margin-left  : 0;
+  margin-bottom: 0;
+}
+
+ul li {
+  list-style         : disc;
+  list-style-position: outside;
+}
+
+ol li {
+  list-style         : decimal;
+  list-style-position: outside;
+}
+
+.list-unstyled {
+  list-style: none;
+  margin    : 0;
+
+  li {
+    margin    : 0;
+    list-style: none;
+  }
+}

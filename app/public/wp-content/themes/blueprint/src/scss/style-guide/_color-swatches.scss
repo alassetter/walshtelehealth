@@ -1,0 +1,194 @@
+/* Color Swatch ******************/
+
+.vc_col-sm-12.color-swatch,
+.vc_col-sm-3.color-swatch.no-padding.wpb_column.column_container.vc_column_container,
+.vc_col-sm-4.color-swatch.no-padding.wpb_column.column_container.vc_column_container,
+.vc_col-sm-6.color-swatch.no-padding.wpb_column.column_container.vc_column_container {
+  box-shadow: none;
+  border    : none;
+}
+
+.vc_col-sm-12.txt-swatch.wpb_column.column_container,
+.vc_col-sm-12.txt-swatch.wpb_column.column_container,
+.vc_col-sm-3.color-swatch.wpb_column.column_container.vc_column_container,
+.vc_col-sm-4.color-swatch.wpb_column.column_container.vc_column_container,
+.vc_col-sm-6.color-swatch.wpb_column.column_container.vc_column_container {
+  box-shadow   : 0 0 0 1px rgba(89,105,128,.1), 0 1px 2px 0 rgba(89,105,128,.1), 0 1px 3px 0 rgba(0,0,0,.05);
+  position     : relative;
+  border       : 1px solid rgba(0,0,0,.2);
+  overflow     : hidden;
+  border-radius: 3px;
+
+  &::after {
+    content   : "";
+    position  : absolute;
+    bottom    : 0;
+    left      : 0;
+    width     : 100%;
+    height    : 5px;
+    background: rgba(0,0,0,.05);
+  }
+}
+
+.color-swatch.light-txt,
+.txt-swatch.light-txt {
+  .wpb_text_column.wpb_content_element {
+    p {
+      label {
+        color: $white;
+        @include fontSmoothing;
+      }
+
+      span.hex,
+      span.rgba {
+        color: $flash-white;
+        @include fontSmoothing;
+      }
+    }
+  }
+}
+
+.color-swatch,
+.txt-swatch {
+  .wpb_text_column.wpb_content_element {
+    margin-bottom: 0;
+
+    p {
+      padding-bottom: 0;
+
+      label {
+
+        font-size     : 20px;
+        color         : $black;
+
+        text-transform: capitalize;
+      }
+
+      span.hex,
+      span.rgba {
+        color         : $text-primary;
+        font-size     : 12.8px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+/* Code Toggle  ******************/
+.code-toggle {
+  div.toggles[data-style="minimal_small"] {
+    margin-bottom: 0;
+
+    .toggle.default {
+      margin-bottom: 0 !important;
+
+      .open {
+        color: $text-primary;
+      }
+
+      h3 a {
+
+        font-size     : 14px;
+        font-variant  : small-caps;
+        line-height   : 24px;
+        margin-bottom : 0;
+        letter-spacing: 0.125px;
+        // color: $text-primary !important;
+        i {
+          // border: $text-primary;
+        }
+
+        &:hover {
+          // color: #0f1d2b !important;
+        }
+      }
+    }
+
+    code {
+      background-color: #313642;
+      border-radius   : 3px;
+      color           : $flash-white;
+    }
+  }
+}
+
+.code-toggle.dark-txt {
+  div.toggles[data-style="minimal_small"] {
+    .toggle.default {
+      .open {
+        color: $text-primary;
+      }
+
+      h3 a {
+        color: $text-primary !important;
+
+        i {
+          border: $text-primary;
+        }
+
+        &:hover {
+          color: #0f1d2b !important;
+        }
+      }
+
+      h3:after {
+        background-color: $text-primary;
+        opacity         : 1;
+      }
+
+      h3:before {
+        background-color: $text-primary;
+        opacity         : 0.08;
+      }
+    }
+  }
+}
+
+.code-toggle.light-txt {
+  div.toggles[data-style="minimal_small"] {
+    .toggle.default {
+      .open {
+        color: $white;
+      }
+
+      h3 a {
+        color: $flash-white !important;
+
+        i {
+          border: $flash-white;
+        }
+
+        &:hover {
+          color: $white !important;
+        }
+      }
+
+      h3:after {
+        background-color: $white;
+        opacity         : 1;
+      }
+
+      h3:before {
+        background-color: $white;
+        opacity         : 0.08;
+      }
+    }
+  }
+}
+
+.wpb_raw_code.wpb_content_element.wpb_raw_html.style-guide--code-snippet {
+  margin-bottom: 0;
+}
+
+.vc_col-sm-12.txt-swatch.wpb_column.column_container.vc_column_container {
+  padding: 24px !important;
+}
+
+.vc_col-sm-3.color-swatch.wpb_column.column_container.vc_column_container,
+.vc_col-sm-4.color-swatch.wpb_column.column_container.vc_column_container {
+  padding: 24px !important;
+}
+
+.vc_col-sm-3.color-swatch.no-padding.wpb_column.column_container.vc_column_container,
+.vc_col-sm-4.color-swatch.no-padding.wpb_column.column_container.vc_column_container {
+  padding: 0 0 2% 0 !important;
+}

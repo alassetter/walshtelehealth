@@ -1,0 +1,8 @@
+
+/* Font Weight 300, 400, 500, 600 700 ******************/
+.fw {
+  @include font-weight-list;
+}
+
+/* Font Weight Mixin ******************/
+// @include font-weight(100);

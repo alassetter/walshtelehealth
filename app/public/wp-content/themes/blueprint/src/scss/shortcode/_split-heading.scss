@@ -1,0 +1,22 @@
+/***************** Split Heading ****************/
+.republicpg-split-heading .heading-line {
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+.republicpg-split-heading .heading-line > div {
+	display: block;
+	transform: translateY(200%);
+	-webkit-transform: translateY(200%);
+}
+@media only screen and (max-width:1000px) {
+	.republicpg-split-heading .heading-line > div {
+		transform: none!important;
+		-webkit-transform: none!important;
+	}
+}
+
+.republicpg-split-heading h1 {
+	margin-bottom: 0;
+}

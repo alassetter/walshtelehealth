@@ -1,0 +1,136 @@
+/***************** Sticky Submenu ********************/
+.page-submenu:not(.stuck) {
+	transform: translateY(0px)!important;
+	-webkit-transform: translateY(0px)!important;
+}
+
+.page-submenu.no-trans {
+	transition: none!important;
+	-webkit-transition: none!important;
+}
+
+.page-submenu.stuck {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+
+#boxed .page-submenu.stuck {
+	left: auto!important;
+}
+@media only screen and (min-width:1000px) {
+	#boxed .page-submenu.stuck {
+		overflow: hidden;
+	}
+}
+
+.page-submenu.stuck.header-not-visible {
+	transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+}
+
+.page-submenu.stuck .full-width-content {
+	margin-left: 0px!important;
+}
+
+.page-submenu .full-width-content,
+.page-submenu .full-width-section {
+	height: auto!important;
+}
+
+.page-submenu .full-width-section.first-section {
+	margin-top: 0!important;
+}
+
+.full-width-content > .span_12 > .vc_col-sm-12 > .vc_column-inner > .wpb_wrapper .page-submenu:not(.stuck) > .full-width-content {
+	margin-left: 0!important;
+}
+
+.page-submenu ul {
+	margin: 0;
+	color: inherit;
+}
+@media only screen and (min-width:1000px) {
+	.page-submenu ul {
+		display: block!important;
+		height: auto!important;
+	}
+}
+
+.page-submenu[data-alignment="left"] {
+	text-align: left;
+}
+
+.page-submenu[data-alignment="center"] {
+	text-align: center;
+}
+
+.page-submenu[data-alignment="right"] {
+	text-align: right;
+}
+
+.page-submenu[data-alignment="right"] .full-width-section ul li:last-child {
+	margin-right: 0;
+}
+
+.page-submenu[data-alignment="left"] .full-width-section ul li:first-child {
+	margin-left: 0;
+}
+
+.page-submenu[data-alignment="left"] .full-width-content ul li:first-child {
+	margin-left: 25px;
+}
+
+.page-submenu[data-alignment="right"] .full-width-content ul li:last-child {
+	margin-right: 33px;
+}
+
+.page-submenu li {
+	display: inline-block;
+	margin: 0 25px 0 0;
+	color: inherit;
+}
+
+.page-submenu li a {
+	color: inherit!important;
+	transition: all 0.1s ease;
+	-webkit-transition: all 0.1s ease;
+	padding-top: 20px!important;
+	padding-bottom: 20px!important;
+	display: block;
+	opacity: 0.7;
+}
+
+.page-submenu li a:hover,
+.page-submenu.stuck li.current-menu-item a {
+	opacity: 1;
+	color: inherit!important;
+}
+
+.page-submenu .mobile-menu-link {
+	padding: 16px 20px;
+	border-left: 1px solid rgba(255,255,255,0.2);
+	border-right: 1px solid rgba(255,255,255,0.2);
+	color: inherit!important;
+	display: none;
+	line-height: 17px;
+}
+
+.page-submenu[data-bg-color="#fff"] .mobile-menu-link {
+	border-left: 1px solid rgba(0,0,0,0.08);
+	border-right: 1px solid rgba(0,0,0,0.08);
+}
+
+.blueprint-page-submenu-icon {
+	font-size: 16px;
+	float: left;
+	margin-right: 8px;
+}
+
+.blueprint-page-submenu-icon:before {
+	content: '\e067';
+}

@@ -1,0 +1,671 @@
+/***************** Header Outer ******************/
+body #header-outer.transparent[data-transparent-header="true"].dark-slide,
+.ascend #header-outer.transparent[data-transparent-header="true"][data-full-width="true"].dark-slide > header#top nav ul #search-btn a,
+.ascend #header-outer.transparent[data-transparent-header="true"][data-full-width="true"].dark-slide > header#top nav ul #republicpg-user-account a,
+.ascend #header-outer.transparent[data-transparent-header="true"][data-full-width="true"].dark-slide > header#top nav ul .slide-out-widget-area-toggle a,
+html body #header-outer.transparent[data-transparent-header="true"].dark-slide .cart-menu,
+html .ascend #header-outer.transparent[data-transparent-header="true"][data-full-width="true"][data-remove-border="true"].dark-slide .cart-menu:after,
+body #header-outer.transparent[data-transparent-header="true"].dark-slide > header#top nav ul #search-btn > div,
+body #header-outer.transparent[data-transparent-header="true"].dark-slide > header#top nav ul #republicpg-user-account > div,
+body #header-outer.transparent[data-transparent-header="true"].dark-slide > header#top nav ul .slide-out-widget-area-toggle > div,
+#boxed #header-outer.transparent[data-transparent-header="true"].dark-slide,
+html body.ascend #boxed #header-outer.transparent.dark-slide .cart-menu .cart-icon-wrap i,
+html body.ascend #header-outer.transparent[data-transparent-header="true"][data-full-width="true"][data-remove-border="true"].dark-slide header#top nav ul #search-btn a:after,
+html body.ascend #header-outer.transparent[data-transparent-header="true"][data-full-width="true"][data-remove-border="true"].dark-slide header#top nav ul #republicpg-user-account a:after,
+.ascend #header-outer.transparent[data-transparent-header="true"][data-full-width="true"][data-remove-border="true"].dark-slide header#top nav ul .slide-out-widget-area-toggle a:after,
+html body #header-outer.transparent[data-transparent-header="true"][data-remove-border="true"].dark-slide .cart-menu:after {
+	border-color: rgba(0,0,0,0.08) !important;
+}
+
+#header-outer[data-lhe="animated_underline"].transparent.dark-slide header#top nav > ul > li > a:after,
+#header-outer.transparent .midnightHeader.dark header#top nav > ul > li[class*="button_bordered"] > a:before,
+#header-outer.transparent .midnightHeader.default header#top nav > ul > li[class*="button_bordered"] > a:before,
+#header-outer.transparent.dark-slide header#top nav > ul > li[class*="button_bordered"] > a:before,
+#header-outer[data-lhe="animated_underline"].transparent:not(.side-widget-open) .midnightHeader.dark header#top nav > ul > li > a:after,
+#header-outer[data-lhe="animated_underline"].transparent:not(.side-widget-open) .midnightHeader.default header#top nav > ul > li > a:after {
+	border-color: #000!important;
+}
+
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] {
+	background-color: transparent!important;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+#header-outer[data-transparent-header="true"].transparent .midnightHeader .midnightInner {
+	overflow: hidden!important;
+}
+
+#header-outer[data-transparent-header="true"].transparent .midnightHeader.no-pointer-events,
+#header-outer[data-transparent-header="true"].no-pointer-events,
+.col.boxed.no-pointer-events {
+	pointer-events: none;
+}
+
+#header-outer[data-transparent-header="true"].transparent.side-widget-open.style-slide-out-from-right .midnightHeader.no-pointer-events,
+#header-outer[data-transparent-header="true"].transparent.side-widget-open.style-slide-out-from-right-hover .midnightHeader.no-pointer-events,
+#header-outer[data-transparent-header="true"].no-pointer-events.side-widget-open.style-slide-out-from-right,
+#header-outer[data-transparent-header="true"].no-pointer-events.side-widget-open.style-slide-out-from-right-alt {
+	pointer-events: auto;
+}
+
+#header-outer[data-transparent-header="true"].transparent .midnightHeader.overflow .midnightInner,
+#header-outer[data-transparent-header="true"].transparent .midnightHeader.overflow {
+	overflow: visible!important;
+}
+
+body[data-bg-header="true"][data-header-search="true"] #header-outer[data-has-menu="false"] nav ul #search-btn a:after {
+	border: none!important;
+	display: none!important;
+}
+
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] #header-outer.light-text header#top nav ul .slide-out-widget-area-toggle a i.lines,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] #header-outer.dark-text header#top nav ul .slide-out-widget-area-toggle a i.lines,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] #header-outer.dark-text header#top nav > ul > li > a,
+#header-outer.dark-text header#top nav ul #search-btn a span,
+#header-outer.dark-text header#top nav ul #republicpg-user-account a span,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] #header-outer.dark-text nav > ul > li > a > .sf-sub-indicator [class^="icon-"],
+#header-outer.dark-text .cart-menu .cart-icon-wrap .icon-blueprint-cart,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].ascend #boxed #header-outer.dark-text .cart-menu .cart-icon-wrap .icon-blueprint-cart {
+	opacity: 1;
+}
+
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent header#top nav ul .slide-out-widget-area-toggle a i.lines,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent header#top nav ul #search-btn a span.icon-blueprint-search,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent header#top nav ul #republicpg-user-account a span,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .has_products .cart-menu .cart-icon-wrap .icon-blueprint-cart,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .cart-menu .cart-icon-wrap .icon-blueprint-cart,
+#header-outer[data-permanent-transparent="1"] .midnightHeader header#top ul.sf-menu > li > a {
+	opacity: 1!important;
+}
+
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent header#top nav ul .slide-out-widget-area-toggle a:hover i.lines,
+body[data-bg-header="true"].material #header-outer[data-permanent-transparent="1"].transparent header#top nav ul .slide-out-widget-area-toggle a:hover .lines-button:after,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent header#top nav ul #search-btn a:hover span.icon-blueprint-search,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .has_products .cart-menu:hover .cart-icon-wrap .icon-blueprint-cart,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .cart-menu:hover .cart-icon-wrap .icon-blueprint-cart,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .midnightHeader header#top ul.sf-menu > li:hover > a,
+#header-outer[data-permanent-transparent="1"].transparent .midnightHeader header#top nav ul .slide-out-widget-area-toggle[data-icon-animation="simple-transform"] a:hover .lines-button:after {
+	opacity: 0.8!important;
+}
+
+body[data-bg-header="true"].ascend #header-outer[data-permanent-transparent="1"][data-transparent-header="true"][data-full-width="true"][data-remove-border="true"] header#top nav ul #search-btn a:after,
+body[data-bg-header="true"].ascend #header-outer[data-permanent-transparent="1"][data-transparent-header="true"][data-full-width="true"][data-remove-border="true"] header#top nav ul #republicpg-user-account a:after,
+body[data-bg-header="true"].ascend #header-outer[data-permanent-transparent="1"][data-transparent-header="true"][data-full-width="true"][data-remove-border="true"] header#top nav ul .slide-out-widget-area-toggle a:after,
+body[data-bg-header="true"].ascend #header-outer[data-permanent-transparent="1"][data-transparent-header="true"][data-full-width="true"][data-remove-border="true"] .cart-menu:after {
+	border: none!important;
+}
+
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .lines-button.x2 .lines,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .lines-button.x2 .lines:before,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .lines-button.x2 .lines:after,
+#header-outer[data-permanent-transparent="1"].transparent .midnightHeader header#top nav ul .slide-out-widget-area-toggle[data-icon-animation="simple-transform"] .lines-button:after,
+#header-outer[data-permanent-transparent="1"].transparent:not(.side-widget-open) header#top nav ul .slide-out-widget-area-toggle[data-icon-animation="simple-transform"] a i.lines-button:after {
+	opacity: 1!important;
+}
+
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .lines-button.x2 .lines:before,
+body #header-outer[data-permanent-transparent="1"] .lines-button.x2 .lines:after {
+	opacity: 1;
+}
+
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .lines-button.x2.close .lines,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .lines-button.x2.close .lines:before,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .lines-button.x2.close .lines:after {
+	-webkit-transition: top 0.5s ease,-webkit-transform 0.3s 0.4s ease,background-color 0.2s ease,opacity 0.2s ease!important;
+	transition: top 0.5s ease,transform 0.3s 0.4s ease,background-color 0.2s ease,opacity 0.2s ease!important;
+}
+
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .slide-out-widget-area-toggle[data-icon-animation="simple-transform"] .lines-button.x2.close .lines,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .slide-out-widget-area-toggle[data-icon-animation="simple-transform"] .lines-button.x2.close .lines:before,
+body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"] .slide-out-widget-area-toggle[data-icon-animation="simple-transform"] .lines-button.x2.close .lines:after {
+	-webkit-transition: top 0.5s ease,-webkit-transform 0.3s ease,background-color 0.2s ease,opacity 0.2s ease!important;
+	transition: top 0.5s ease,transform 0.3s ease,background-color 0.2s ease,opacity 0.2s ease!important;
+}
+
+#header-outer.transparent .midnightHeader.dark header#top nav > ul > li:not([class*="button_solid_color"]) > a,
+#header-outer.transparent .midnightHeader.dark header#top #logo,
+#header-outer.transparent .midnightHeader.dark header#top nav ul #search-btn a span.icon-blueprint-search,
+#header-outer.transparent .midnightHeader.dark header#top nav ul #republicpg-user-account a span,
+#header-outer.transparent .midnightHeader.dark nav > ul > li > a > .sf-sub-indicator [class^="icon-"],
+#header-outer.transparent .midnightHeader.dark nav > ul > li > a > .sf-sub-indicator [class*=" icon-"],
+#header-outer.transparent .midnightHeader.dark .cart-menu .cart-icon-wrap .icon-blueprint-cart,
+.ascend #boxed #header-outer.transparent .midnightHeader.dark .cart-menu .cart-icon-wrap .icon-blueprint-cart,
+#header-outer.transparent .midnightHeader.default header#top nav > ul > li:not([class*="button_solid_color"]) > a,
+#header-outer.transparent .midnightHeader.default header#top #logo,
+#header-outer.transparent .midnightHeader.default header#top nav ul #search-btn a span.icon-blueprint-search,
+#header-outer.transparent .midnightHeader.default header#top nav ul #republicpg-user-account a span,
+#header-outer.transparent .midnightHeader.default nav > ul > li > a > .sf-sub-indicator [class^="icon-"],
+#header-outer.transparent .midnightHeader.default nav > ul > li > a > .sf-sub-indicator [class*=" icon-"],
+#header-outer.transparent .midnightHeader.default .cart-menu .cart-icon-wrap .icon-blueprint-cart,
+.ascend #boxed #header-outer.transparent .midnightHeader.default .cart-menu .cart-icon-wrap .icon-blueprint-cart {
+	color: #000!important;
+}
+
+#header-outer.transparent .midnightHeader.dark header#top nav > ul > li[class*="button_bordered"] > a:before,
+#header-outer.transparent .midnightHeader.default header#top nav > ul > li[class*="button_bordered"] > a:before {
+	border-color: rgba(0,0,0,1);
+}
+
+#header-outer.transparent.side-widget-open .midnightHeader.dark header#top nav > ul > li[class*="button_bordered"] > a:before,
+#header-outer.transparent.side-widget-open .midnightHeader.default header#top nav > ul > li[class*="button_bordered"] > a:before {
+	border-color: rgba(255,255,255,1);
+}
+
+#header-outer.transparent .midnightHeader.dark .slide-out-widget-area-toggle[data-icon-animation="simple-transform"] .lines-button:after,
+#header-outer.transparent .midnightHeader.default .slide-out-widget-area-toggle[data-icon-animation="simple-transform"] .lines-button:after,
+#header-outer.transparent .midnightHeader.dark header#top nav ul .slide-out-widget-area-toggle a i.lines,
+#header-outer.transparent .midnightHeader.dark header#top nav ul .slide-out-widget-area-toggle a i.lines:after,
+#header-outer.transparent .midnightHeader.dark header#top nav ul .slide-out-widget-area-toggle a i.lines:before,
+#header-outer.transparent .midnightHeader.default header#top nav ul .slide-out-widget-area-toggle a i.lines,
+#header-outer.transparent .midnightHeader.default header#top nav ul .slide-out-widget-area-toggle a i.lines:after,
+#header-outer.transparent .midnightHeader.default header#top nav ul .slide-out-widget-area-toggle a i.lines:before,
+#header-outer.transparent.directional-nav-effect .midnightHeader.dark header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i,
+#header-outer.transparent.directional-nav-effect .midnightHeader.dark header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i:after,
+#header-outer.transparent.directional-nav-effect .midnightHeader.dark header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i:before,
+#header-outer.transparent.directional-nav-effect .midnightHeader.default header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i,
+#header-outer.transparent.directional-nav-effect .midnightHeader.default header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i:after,
+#header-outer.transparent.directional-nav-effect .midnightHeader.default header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i:before {
+	background-color: #000!important;
+}
+
+body.material #header-outer.transparent.directional-nav-effect #search-btn a {
+	position: relative;
+}
+
+#header-outer.transparent.side-widget-open .midnightHeader.dark header#top #logo,
+#header-outer.transparent.side-widget-open .midnightHeader.dark header#top nav > ul > li > a,
+#header-outer.transparent.side-widget-open .midnightHeader.dark header#top nav ul #republicpg-user-account a span,
+#header-outer.transparent.side-widget-open .midnightHeader.dark header#top nav ul #search-btn a span.icon-blueprint-search,
+#header-outer.transparent.side-widget-open .midnightHeader.dark nav > ul > li > a > .sf-sub-indicator [class^="icon-"],
+#header-outer.transparent.side-widget-open .midnightHeader.dark nav > ul > li > a > .sf-sub-indicator [class*=" icon-"],
+#header-outer.transparent.side-widget-open .midnightHeader.dark .cart-menu .cart-icon-wrap .icon-blueprint-cart,
+#header-outer.transparent.side-widget-open .midnightHeader.default header#top nav > ul > li > a,
+#header-outer.transparent.side-widget-open .midnightHeader.default header#top #logo,
+#header-outer.transparent.side-widget-open .midnightHeader.default header#top nav ul #search-btn a span.icon-blueprint-search,
+#header-outer.transparent.side-widget-open .midnightHeader.default header#top nav ul #republicpg-user-account a span,
+#header-outer.transparent.side-widget-open .midnightHeader.default nav > ul > li > a > .sf-sub-indicator [class^="icon-"],
+#header-outer.transparent.side-widget-open .midnightHeader.default nav > ul > li > a > .sf-sub-indicator [class*=" icon-"],
+#header-outer.transparent.side-widget-open .midnightHeader.default .cart-menu .cart-icon-wrap .icon-blueprint-cart,
+.ascend #boxed #header-outer.transparent.side-widget-open .midnightHeader.dark .cart-menu .cart-icon-wrap .icon-blueprint-cart,
+#header-outer.transparent.side-widget-open .midnightHeader.dark #toggle-nav i,
+#header-outer.transparent .midnightHeader.default #toggle-nav i,
+#header-outer.transparent .midnightHeader.light #toggle-nav i {
+	color: #fff!important;
+}
+
+#header-outer.transparent .midnightHeader.light .slide-out-widget-area-toggle[data-icon-animation="simple-transform"] .lines-button:after,
+#header-outer.transparent .midnightHeader.light header#top nav ul .slide-out-widget-area-toggle a i.lines,
+#header-outer.transparent .midnightHeader.light header#top nav ul .slide-out-widget-area-toggle a i.lines:after,
+#header-outer.transparent .midnightHeader.light header#top nav ul .slide-out-widget-area-toggle a i.lines:before,
+#header-outer.transparent.directional-nav-effect.side-widget-open .midnightHeader.dark header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i,
+#header-outer.transparent.directional-nav-effect.side-widget-open .midnightHeader.dark header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i:after,
+#header-outer.transparent.directional-nav-effect.side-widget-open .midnightHeader.dark header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i:before,
+#header-outer.transparent.directional-nav-effect.side-widget-open .midnightHeader.default header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i,
+#header-outer.transparent.directional-nav-effect.side-widget-open .midnightHeader.default header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i:after,
+#header-outer.transparent.directional-nav-effect.side-widget-open .midnightHeader.default header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i:before,
+#header-outer.transparent.side-widget-open .midnightHeader.dark header#top nav ul .slide-out-widget-area-toggle a i.lines,
+#header-outer.transparent.side-widget-open .midnightHeader.dark header#top nav ul .slide-out-widget-area-toggle a i.lines:after,
+#header-outer.transparent.side-widget-open .midnightHeader.dark header#top nav ul .slide-out-widget-area-toggle a i.lines:before,
+#header-outer.transparent.side-widget-open .midnightHeader.default header#top nav ul .slide-out-widget-area-toggle a i.lines,
+#header-outer.transparent.side-widget-open .midnightHeader.default header#top nav ul .slide-out-widget-area-toggle a i.lines:after,
+#header-outer.transparent.side-widget-open .midnightHeader.default header#top nav ul .slide-out-widget-area-toggle a i.lines:before {
+	background-color: #fff!important;
+}
+
+#header-outer.transparent .midnightHeader.dark header#top nav ul .slide-out-widget-area-toggle a .lines-button.x2.close .lines,
+#header-outer.transparent .midnightHeader.dark header#top nav ul .slide-out-widget-area-toggle a .x2.close i.lines,
+#header-outer.transparent .midnightHeader.dark header#top nav ul .slide-out-widget-area-toggle a:hover .x2.close i.lines,
+#header-outer.transparent .midnightHeader.default header#top nav ul .slide-out-widget-area-toggle a .x2.close i.lines,
+#header-outer.transparent .midnightHeader.republicpg-slider header#top nav ul .slide-out-widget-area-toggle a .x2.close i.lines,
+.lines-button.x2.close .lines {
+	background-color: transparent!important;
+}
+
+#header-outer[data-transparent-header="true"].transparent .midnightHeader.dark #logo img.dark-version,
+body #header-outer[data-transparent-header="true"].transparent.side-widget-open .midnightHeader.dark #logo img.starting-logo:not(.dark-version),
+body #header-outer[data-transparent-header="true"].transparent .midnightHeader.default #logo img.dark-version,
+body #header-outer[data-transparent-header="true"].transparent.side-widget-open .midnightHeader.default #logo img.starting-logo:not(.dark-version) {
+	opacity: 1!important;
+}
+
+#header-outer[data-transparent-header="true"].transparent .midnightHeader.dark #logo img.starting-logo:not(.dark-version),
+#header-outer[data-transparent-header="true"].transparent .midnightHeader.light #logo img.starting-logo.dark-version,
+#header-outer[data-transparent-header="true"].transparent.side-widget-open .midnightHeader.dark #logo img.dark-version,
+#header-outer[data-transparent-header="true"].transparent .midnightHeader.default #logo img.starting-logo,
+#header-outer[data-transparent-header="true"].transparent.side-widget-open .midnightHeader.default #logo img.dark-version {
+	opacity: 0!important;
+}
+
+.ascend #header-outer[data-transparent-header="true"].transparent .midnightHeader .buttons {
+	margin-top: 0!important;
+}
+
+#header-outer[data-transparent-header="true"] #logo .dark-version,
+#header-outer[data-transparent-header="true"][data-format="centered-menu-under-logo"][data-permanent-transparent="1"] #logo .dark-version,
+#header-outer[data-transparent-header="true"][data-format="centered-menu-bottom-bar"][data-permanent-transparent="1"] #logo .dark-version {
+	position: absolute;
+}
+
+#header-outer[data-transparent-header="true"][data-format="centered-menu-under-logo"] #logo .dark-version,
+#header-outer[data-transparent-header="true"][data-format="centered-menu-bottom-bar"] #logo .dark-version {
+	position: relative;
+}
+
+body #header-outer[data-permanent-transparent="1"].transparent:not(.dark-slide) > header#top .span_9 > .slide-out-widget-area-toggle i.lines-button:after,
+body #header-outer[data-permanent-transparent="1"].transparent:not(.dark-slide) > header#top .span_9 > .slide-out-widget-area-toggle i.lines:after,
+body #header-outer[data-permanent-transparent="1"].transparent:not(.dark-slide) > header#top .span_9 > .slide-out-widget-area-toggle i.lines:before {
+	background-color: #fff!important;
+}
+
+#header-outer[data-permanent-transparent="1"].transparent:not(.dark-slide) .mobile-search .icon-blueprint-search,
+#header-outer[data-permanent-transparent="1"].transparent:not(.dark-slide) .mobile-user-account .icon-blueprint-m-user,
+#header-outer[data-permanent-transparent="1"].transparent:not(.dark-slide) header#top #mobile-cart-link i {
+	color: #fff;
+}
+
+#header-outer[data-permanent-transparent="1"].transparent:not(.dark-slide) header#top #mobile-cart-link i {
+	color: #fff!important;
+}
+
+body #header-outer[data-permanent-transparent="1"].transparent.dark-slide > header#top .span_9 > .slide-out-widget-area-toggle i.lines-button:after,
+body #header-outer[data-permanent-transparent="1"].transparent.dark-slide > header#top .span_9 > .slide-out-widget-area-toggle i.lines:before,
+body #header-outer[data-permanent-transparent="1"].transparent.dark-slide > header#top .span_9 > .slide-out-widget-area-toggle i.lines:after {
+	background-color: #000!important;
+}
+
+#header-outer[data-permanent-transparent="1"].transparent.dark-slide header#top #mobile-cart-link i,
+#header-outer[data-permanent-transparent="1"].transparent.dark-slide .mobile-search .icon-blueprint-search,
+#header-outer[data-permanent-transparent="1"].transparent.dark-slide .mobile-user-account .icon-blueprint-m-user {
+	color: #000;
+}
+
+#header-outer[data-permanent-transparent="1"].transparent.dark-slide header#top #mobile-cart-link i {
+	color: #000!important;
+}
+
+#header-outer[data-permanent-transparent="1"][data-transparent-header="true"].transparent #logo img {
+	opacity: 0;
+}
+
+#header-outer[data-permanent-transparent="1"][data-transparent-header="true"].transparent:not(.dark-slide) #logo .starting-logo {
+	opacity: 1;
+	-ms-filter:  'alpha(opacity=100)''
+}
+
+#header-outer[data-permanent-transparent="1"][data-transparent-header="true"].transparent:not(.dark-slide) #logo img.dark-version {
+	opacity: 0!important;
+}
+
+#header-outer[data-permanent-transparent="1"][data-transparent-header="true"].transparent.dark-slide #logo .starting-logo.dark-version {
+	opacity: 1;
+	-ms-filter:  'alpha(opacity=100)''
+}
+
+#header-outer[data-permanent-transparent="1"][data-transparent-header="true"].transparent.dark-slide #logo img:not(.dark-version) {
+	opacity: 0!important;
+}
+
+#header-outer[data-format="centered-menu-under-logo"][data-permanent-transparent="1"] header#top #logo img.dark-version,
+#header-outer[data-format="centered-menu-bottom-bar"][data-permanent-transparent="1"] header#top #logo img.dark-version {
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}
+
+body[data-header-search="false"]:not(.mobile) #header-outer[data-has-menu="false"][data-cart="false"] .lines,
+body[data-header-search="false"]:not(.mobile) #header-outer[data-has-menu="false"][data-cart="false"] .lines:before,
+body[data-header-search="false"]:not(.mobile) #header-outer[data-has-menu="false"][data-cart="false"] .lines:after {
+	height: 4px;
+	width: 2.1rem;
+	border-radius: 1px;
+	-webkit-border-radius: 1px;
+}
+
+body[data-header-search="false"]:not(.mobile) #header-outer[data-has-menu="false"][data-cart="false"] .lines-button,
+.slide-out-hover-icon-effect:not(.small) .lines-button,
+body[data-is="minimal"] [data-icon-animation="simple-transform"].slide-out-hover-icon-effect:not(.small) .lines-button {
+	line-height: 0;
+	font-size: 0;
+}
+
+body[data-header-search="false"] #header-outer[data-has-menu="false"][data-cart="false"] .lines-button.close {
+	transform: none;
+	-webkit-transform: none;
+}
+
+body[data-header-search="false"] #header-outer[data-has-menu="false"][data-cart="false"] header#top nav ul .slide-out-widget-area-toggle a,
+.slide-out-hover-icon-effect a {
+	width: 34px;
+}
+
+.slide-out-hover-icon-effect.small a {
+	width: auto;
+}
+
+body[data-header-search="false"].ascend #header-outer[data-has-menu="false"][data-cart="false"][data-full-width="true"] header#top nav ul .slide-out-widget-area-toggle a {
+	padding-right: 32px!important;
+}
+
+body[data-header-search="false"] #header-outer[data-has-menu="false"][data-cart="false"] .lines:before {
+	top: 9px;
+}
+
+body[data-header-search="false"] #header-outer[data-has-menu="false"][data-cart="false"] .lines:after {
+	top: -9px;
+}
+
+body[data-header-search="false"] #header-outer[data-has-menu="false"][data-cart="false"] .slide-out-widget-area-toggle[data-icon-animation="spin-and-transform"] .lines-button.x2.close .lines:before,
+body[data-header-search="false"] #header-outer[data-has-menu="false"][data-cart="false"] .slide-out-widget-area-toggle[data-icon-animation="spin-and-transform"] .lines-button.x2.close .lines:after {
+	top: -1px;
+}
+
+#header-outer.directional-nav-effect:not(.transparent) #logo span.dark,
+#header-outer.directional-nav-effect:not(.transparent) #logo span.light,
+#header-outer.directional-nav-effect:not(.transparent) .midnightHeader.republicpg-slider .cart-menu .cart-icon-wrap span.dark,
+#header-outer.directional-nav-effect:not(.transparent) .midnightHeader.republicpg-slider .cart-menu .cart-icon-wrap span.light,
+#header-outer.directional-nav-effect:not(.transparent) .midnightHeader.republicpg-slider header#top nav > ul > li > a span.dark,
+#header-outer.directional-nav-effect:not(.transparent) .midnightHeader.republicpg-slider header#top nav > ul > li > a span.light,
+#header-outer.directional-nav-effect:not(.transparent) .midnightHeader.republicpg-slider header#top nav > ul.buttons > li a span.dark,
+#header-outer.directional-nav-effect:not(.transparent) .midnightHeader.republicpg-slider header#top nav > ul.buttons > li a span.light,
+#header-outer.directional-nav-effect:not(.transparent) > .cart-outer .cart-menu .cart-icon-wrap span.dark,
+#header-outer.directional-nav-effect:not(.transparent) > .cart-outer .cart-menu .cart-icon-wrap span.light,
+#header-outer.directional-nav-effect:not(.transparent) > header#top nav > ul > li > a span.dark,
+#header-outer.directional-nav-effect:not(.transparent) > header#top nav > ul > li > a span.light,
+#header-outer.directional-nav-effect:not(.transparent) > header#top nav > ul.buttons > li a span.dark,
+#header-outer.directional-nav-effect:not(.transparent) > header#top nav > ul.buttons > li a span.light,
+#header-outer:not(.directional-nav-effect) .midnightHeader.republicpg-slider .cart-outer .cart-menu .cart-icon-wrap span.dark,
+#header-outer:not(.directional-nav-effect) .midnightHeader.republicpg-slider .cart-outer .cart-menu .cart-icon-wrap span.light,
+#header-outer:not(.directional-nav-effect) > .cart-outer .cart-menu .cart-icon-wrap span.dark,
+#header-outer:not(.directional-nav-effect) > .cart-outer .cart-menu .cart-icon-wrap span.light {
+	display: none!important;
+}
+
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider .cart-outer .cart-icon-wrap > span,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider .cart-outer .cart-icon-wrap > span span,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul > li > a span,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul.buttons > li a span,
+#header-outer.transparent.directional-nav-effect > .cart-outer .cart-icon-wrap > span,
+#header-outer.transparent.directional-nav-effect > .cart-outer .cart-icon-wrap > span span,
+#header-outer.transparent.directional-nav-effect > header#top nav > ul > li > a span,
+#header-outer.transparent.directional-nav-effect > header#top nav > ul.buttons > li a span {
+	display: inline-block;
+}
+
+#header-outer.directional-nav-effect .midnightHeader.republicpg-slider .cart-outer .cart-menu .cart-icon-wrap span.original,
+#header-outer.directional-nav-effect .midnightHeader.republicpg-slider .cart-outer .cart-menu .cart-icon-wrap span.original span,
+#header-outer.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul > li > a span.original,
+#header-outer.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul > li > a span.original span,
+#header-outer.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul.buttons span.original,
+#header-outer.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul.buttons span.original span,
+#header-outer.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul #republicpg-user-account a span.original span,
+#header-outer.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul #republicpg-user-account a span.original span,
+#header-outer.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul #search-btn a span.original span.icon-blueprint-search,
+#header-outer.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul #search-btn a span.original span.icon-blueprint-search,
+#header-outer.directional-nav-effect .slide-out-widget-area-toggle span.original,
+#header-outer.directional-nav-effect > .cart-outer .cart-menu .cart-icon-wrap span.original,
+#header-outer.directional-nav-effect > .cart-outer .cart-menu .cart-icon-wrap span.original span,
+#header-outer.directional-nav-effect > header#top nav > ul > li > a span.original,
+#header-outer.directional-nav-effect > header#top nav > ul > li > a span.original span,
+#header-outer.directional-nav-effect > header#top nav > ul.buttons span.original,
+#header-outer.directional-nav-effect > header#top nav > ul.buttons span.original span,
+#header-outer.directional-nav-effect > header#top nav ul #republicpg-user-account a span.original span,
+#header-outer.directional-nav-effect > header#top nav ul #republicpg-user-account a span.original span,
+#header-outer.directional-nav-effect > header#top nav ul #search-btn a span.original span.icon-blueprint-search,
+#header-outer.directional-nav-effect > header#top nav ul #search-btn a span.original span.icon-blueprint-search {
+	opacity: 1;
+	display: inline;
+}
+
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider .cart-outer .cart-menu .cart-icon-wrap span.original,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top #logo span.original,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul > li > a span.original,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul.buttons span.original,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul #republicpg-user-account a span.original span,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul #search-btn a span.original span.icon-blueprint-search,
+#header-outer.transparent.directional-nav-effect > .cart-outer .cart-menu .cart-icon-wrap span.original,
+#header-outer.transparent.directional-nav-effect > header#top #logo span.original,
+#header-outer.transparent.directional-nav-effect > header#top nav > ul > li > a span.original,
+#header-outer.transparent.directional-nav-effect > header#top nav > ul.buttons span.original,
+#header-outer.transparent.directional-nav-effect > header#top nav ul #republicpg-user-account a span.original span,
+#header-outer.transparent.directional-nav-effect > header#top nav ul #search-btn a span.original span.icon-blueprint-search {
+	opacity: 0!important;
+	display: block;
+}
+
+#header-outer.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul #search-btn a span.original span.icon-blueprint-search,
+#header-outer.directional-nav-effect > header#top nav ul #search-btn a span.original span.icon-blueprint-search {
+	margin-left: 4px;
+}
+
+#header-outer.directional-nav-effect[data-format="centered-menu"] > header#top nav ul #search-btn a span.original span.icon-blueprint-search,
+#header-outer.directional-nav-effect[data-format="centered-menu"] .midnightHeader.republicpg-slider header#top nav ul #search-btn a span.original span.icon-blueprint-search {
+	margin-left: 0;
+}
+
+#header-outer.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul #republicpg-user-account a span.original span,
+#header-outer.directional-nav-effect > header#top nav ul #republicpg-user-account a span.original span {
+	margin-left: 4px;
+}
+
+#header-outer.directional-nav-effect[data-format="centered-menu"] > header#top nav ul #republicpg-user-account a span.original span,
+#header-outer.directional-nav-effect[data-format="centered-menu"] .midnightHeader.republicpg-slider header#top nav ul #republicpg-user-account a span.original span {
+	margin-left: 0;
+}
+
+#header-outer.transparent.directional-nav-effect .sf-sub-indicator {
+	display: inline!important;
+}
+
+#header-outer.transparent.directional-nav-effect > .cart-outer .cart-menu .cart-icon-wrap span.dark .icon-blueprint-cart,
+#header-outer.transparent.directional-nav-effect > header#top #logo span.dark,
+#header-outer.transparent.directional-nav-effect > header#top nav > ul > li > a span.dark,
+#header-outer.transparent.directional-nav-effect > header#top nav > ul.buttons > li a span.dark,
+#header-outer.transparent.directional-nav-effect > header#top nav ul #republicpg-user-account a span.dark span,
+#header-outer.transparent.directional-nav-effect > header#top nav ul #search-btn a span.dark span.icon-blueprint-search,
+#header-outer.transparent.directional-nav-effect > header#top nav ul span.dark .sf-sub-indicator i {
+	color: #000!important;
+}
+
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider .cart-outer .cart-menu .cart-icon-wrap span.dark .icon-blueprint-cart,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top #logo span.dark,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul > li > a span.dark,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul.buttons > li a span.dark,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul #republicpg-user-account a span.dark span,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul #search-btn a span.dark span.icon-blueprint-search,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul span.dark .sf-sub-indicator i {
+	color: #000!important;
+}
+
+#header-outer.transparent.directional-nav-effect > header#top nav ul .slide-out-widget-area-toggle a span.dark .lines-button i,
+#header-outer.transparent.directional-nav-effect > header#top nav ul .slide-out-widget-area-toggle[data-icon-animation="simple-transform"] a span.dark .lines-button:after,
+#header-outer.transparent.directional-nav-effect > header#top nav ul .slide-out-widget-area-toggle a span.dark .lines-button i:after,
+#header-outer.transparent.directional-nav-effect > header#top nav ul .slide-out-widget-area-toggle a span.dark .lines-button i:before,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul .slide-out-widget-area-toggle a span.dark .lines-button i,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul .slide-out-widget-area-toggle a span.dark .lines-button i:after,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul .slide-out-widget-area-toggle a span.dark .lines-button i:before {
+	background-color: #000!important;
+}
+
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect .midnightHeader.republicpg-slider .cart-outer .cart-menu .cart-icon-wrap span.dark .icon-blueprint-cart,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top #logo span.dark,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul > li > a span.dark,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul.buttons > li a span.dark,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect > .cart-outer .cart-menu .cart-icon-wrap span.dark .icon-blueprint-cart,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect > header#top #logo span.dark,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect > header#top nav > ul > li > a span.dark,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect > header#top nav > ul.buttons > li a span.dark {
+	opacity: 0!important;
+}
+
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect .midnightHeader.republicpg-slider .cart-outer .cart-menu .cart-icon-wrap span.light,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect .midnightHeader.republicpg-slider .cart-outer .cart-menu .cart-icon-wrap span.light span,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top #logo span.light,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top #logo span.light span,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul > li > a span.light,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul > li > a span.light span,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul.buttons > li a span.light,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul.buttons > li a span.light span,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect > .cart-outer .cart-menu .cart-icon-wrap span.light,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect > .cart-outer .cart-menu .cart-icon-wrap span.light span,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect > header#top #logo span.light,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect > header#top #logo span.light span,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect > header#top nav > ul > li > a span.light,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect > header#top nav > ul > li > a span.light span,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect > header#top nav > ul.buttons > li a span.light,
+#header-outer.temp-removed-dark-slide.transparent.directional-nav-effect > header#top nav > ul.buttons > li a span.light span {
+	margin-left: 0!important;
+	width: auto!important;
+}
+
+#header-outer.transparent.directional-nav-effect > .cart-outer .cart-menu .cart-icon-wrap span.light .icon-blueprint-cart,
+#header-outer.transparent.directional-nav-effect > header#top #logo span.light,
+#header-outer.transparent.directional-nav-effect > header#top nav > ul > li > a span.light,
+#header-outer.transparent.directional-nav-effect > header#top nav > ul.buttons > li a span.light,
+#header-outer.transparent.directional-nav-effect > header#top nav ul #search-btn a span.light span.icon-blueprint-search,
+#header-outer.transparent.directional-nav-effect > header#top nav ul span.light .sf-sub-indicator i {
+	color: #fff!important;
+}
+
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider .cart-outer .cart-menu .cart-icon-wrap span.light .icon-blueprint-cart,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top #logo span.light,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul > li > a span.light,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul.buttons > li a span.light,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul #republicpg-user-account a span.light span,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul #search-btn a span.light span.icon-blueprint-search,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul span.light .sf-sub-indicator i {
+	color: #fff!important;
+}
+
+#header-outer.transparent.directional-nav-effect > header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i,
+#header-outer.transparent.directional-nav-effect > header#top nav ul .slide-out-widget-area-toggle[data-icon-animation="simple-transform"] a span.light .lines-button:after,
+#header-outer.transparent.directional-nav-effect > header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i:after,
+#header-outer.transparent.directional-nav-effect > header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i:before,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i:after,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul .slide-out-widget-area-toggle a span.light .lines-button i:before {
+	background-color: #fff!important;
+}
+
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider .cart-outer .cart-menu .cart-icon-wrap span.dark,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider .cart-outer .cart-menu .cart-icon-wrap span.light,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider .cart-outer .cart-menu .cart-icon-wrap span.original,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top #logo span.dark,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top #logo span.light,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul > li > a span.dark,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul > li > a span.light,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul.buttons > li a span.dark,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul.buttons > li a span.light,
+#header-outer.transparent.directional-nav-effect > .cart-outer .cart-menu .cart-icon-wrap span.dark,
+#header-outer.transparent.directional-nav-effect > .cart-outer .cart-menu .cart-icon-wrap span.light,
+#header-outer.transparent.directional-nav-effect > .cart-outer .cart-menu .cart-icon-wrap span.original,
+#header-outer.transparent.directional-nav-effect > header#top #logo span.dark,
+#header-outer.transparent.directional-nav-effect > header#top #logo span.light,
+#header-outer.transparent.directional-nav-effect > header#top nav > ul > li > a span.dark,
+#header-outer.transparent.directional-nav-effect > header#top nav > ul > li > a span.light,
+#header-outer.transparent.directional-nav-effect > header#top nav > ul.buttons > li a span.dark,
+#header-outer.transparent.directional-nav-effect > header#top nav > ul.buttons > li a span.light {
+	position: absolute;
+	overflow: hidden;
+	text-align: left;
+}
+
+#header-outer.transparent.directional-nav-effect[data-format="centered-menu-under-logo"] > header#top #logo span.light,
+#header-outer.transparent.directional-nav-effect[data-format="centered-menu-under-logo"] > header#top #logo span.dark,
+#header-outer.transparent.directional-nav-effect[data-format="centered-menu-under-logo"] .midnightHeader.republicpg-slider header#top #logo span.light,
+#header-outer.transparent.directional-nav-effect[data-format="centered-menu-under-logo"] .midnightHeader.republicpg-slider header#top #logo span.dark,
+#header-outer.transparent.directional-nav-effect[data-format="centered-menu-bottom-bar"] > header#top #logo span.light,
+#header-outer.transparent.directional-nav-effect[data-format="centered-menu-bottom-bar"] > header#top #logo span.dark,
+#header-outer.transparent.directional-nav-effect[data-format="centered-menu-bottom-bar"] .midnightHeader.republicpg-slider header#top #logo span.light,
+#header-outer.transparent.directional-nav-effect[data-format="centered-menu-bottom-bar"] .midnightHeader.republicpg-slider header#top #logo span.dark {
+	position: relative!important;
+}
+
+#header-outer.transparent.directional-nav-effect[data-format="centered-menu-under-logo"] > header#top #logo span.original,
+#header-outer.transparent.directional-nav-effect[data-format="centered-menu-under-logo"] .midnightHeader.republicpg-slider header#top #logo span.original,
+#header-outer.transparent.directional-nav-effect[data-format="centered-menu-bottom-bar"] > header#top #logo span.original,
+#header-outer.transparent.directional-nav-effect[data-format="centered-menu-bottom-bar"] .midnightHeader.republicpg-slider header#top #logo span.original {
+	display: none!important;
+}
+
+#header-outer.directional-nav-effect[data-format="centered-menu-under-logo"] > header#top #logo span.original img,
+#header-outer.directional-nav-effect[data-format="centered-menu-under-logo"] .midnightHeader.republicpg-slider header#top #logo span.original img,
+#header-outer.directional-nav-effect[data-format="centered-menu-bottom-bar"] > header#top #logo span.original img,
+#header-outer.directional-nav-effect[data-format="centered-menu-bottom-bar"] .midnightHeader.republicpg-slider header#top #logo span.original img {
+	margin-bottom: 0!important;
+}
+
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top .span_9 .buttons,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav > ul > li > a,
+#header-outer.transparent.directional-nav-effect > header#top .span_9 .buttons,
+#header-outer.transparent.directional-nav-effect > header#top nav > ul > li > a {
+	text-align: left;
+}
+
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul #search-btn a span.dark span,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top nav ul #search-btn a span.light span,
+#header-outer.transparent.directional-nav-effect > header#top nav ul #search-btn a span.dark span,
+#header-outer.transparent.directional-nav-effect > header#top nav ul #search-btn a span.light span {
+	width: 24px!important;
+}
+
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top #logo img,
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top #logo span.original,
+#header-outer.transparent.directional-nav-effect > header#top #logo img,
+#header-outer.transparent.directional-nav-effect > header#top #logo span.original,
+.ascend #header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider .cart-menu .cart-icon-wrap i,
+.ascend #header-outer.transparent.directional-nav-effect > .cart-outer .cart-menu .cart-icon-wrap i {
+	position: relative!important;
+}
+
+#header-outer.transparent.directional-nav-effect .midnightHeader.republicpg-slider header#top #logo img,
+#header-outer.transparent.directional-nav-effect > header#top #logo img {
+	opacity: 1!important;
+	display: inline;
+	transition: none!important;
+	-webkit-transition: none!important;
+}
+
+.ascend #header-outer[data-transparent-header="true"][data-full-width="true"][data-remove-border="true"].directional-nav-effect > header#top nav ul #search-btn .light a:after,
+.ascend #header-outer[data-transparent-header="true"][data-full-width="true"][data-remove-border="true"].directional-nav-effect > header#top nav ul #search-btn .dark a:after,
+.ascend #header-outer[data-transparent-header="true"][data-full-width="true"][data-remove-border="true"].directional-nav-effect > header#top nav ul .slide-out-widget-area-toggle .dark a:after,
+.ascend #header-outer[data-transparent-header="true"][data-full-width="true"][data-remove-border="true"].directional-nav-effect > header#top nav ul .slide-out-widget-area-toggle .light a:after,
+.ascend #header-outer[data-transparent-header="true"][data-full-width="true"][data-remove-border="true"].directional-nav-effect .dark .cart-menu:after,
+.ascend #header-outer[data-transparent-header="true"][data-full-width="true"][data-remove-border="true"].directional-nav-effect .light .cart-menu:after {
+	border: none!important;
+}
+@media only screen and (min-width:1001px) {
+	#header-outer[data-transparent-header="true"].transparent > header #logo img.dark-version,
+	#header-outer[data-transparent-header="true"].light-text > header #logo img.dark-version {
+		opacity: 0!important;
+	}
+
+	#header-outer[data-transparent-header="true"].transparent.dark-slide > header #logo img,
+	#header-outer[data-transparent-header="true"].dark-text > header #logo img,
+	#header-outer[data-transparent-header="true"].dark-text.side-widget-open > header #logo img.dark-version {
+		opacity: 0!important;
+	}
+
+	#header-outer[data-transparent-header="true"].transparent.dark-slide > header #logo img.dark-version,
+	#header-outer[data-transparent-header="true"].dark-text > header #logo img.dark-version,
+	#header-outer[data-transparent-header="true"].dark-text.side-widget-open > header #logo img.starting-logo {
+		opacity: 1!important;
+	}
+}
+
+#header-outer[data-transparent-header="true"].transparent .midnightHeader.republicpg-slider #logo img.dark-version,
+#header-outer[data-transparent-header="true"].light-text .midnightHeader.republicpg-slider #logo img.dark-version {
+	opacity: 0!important;
+}
+
+#header-outer[data-transparent-header="true"].transparent.dark-slide .midnightHeader.republicpg-slider #logo img,
+#header-outer[data-transparent-header="true"].dark-text .midnightHeader.republicpg-slider #logo img,
+#header-outer[data-transparent-header="true"].dark-text.side-widget-open .midnightHeader.republicpg-slider #logo img.dark-version {
+	opacity: 0!important;
+}
+
+#header-outer[data-transparent-header="true"].transparent.dark-slide .midnightHeader.republicpg-slider #logo img.dark-version,
+#header-outer[data-transparent-header="true"].dark-text .midnightHeader.republicpg-slider #logo img.dark-version,
+#header-outer[data-transparent-header="true"].dark-text.side-widget-open .midnightHeader.republicpg-slider #logo img.starting-logo {
+	opacity: 1!important;
+}

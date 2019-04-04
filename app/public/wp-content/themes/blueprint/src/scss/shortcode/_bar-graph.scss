@@ -1,0 +1,96 @@
+/***************** Bar graph ******************/
+.republicpg-progress-bar {
+	margin-bottom: 0px!important;
+}
+
+.republicpg-progress-bar .bar-wrap {
+	margin-bottom: 13px;
+	background-color: #e4e4e4;
+	border-radius: 300px 300px 300px 300px;
+	-webkit-border-radius: 300px 300px 300px 300px;
+	background-color: #ebebeb;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.09) inset;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.09) inset;
+	-o-box-shadow: 0 1px 2px rgba(0,0,0,0.09) inset;
+}
+
+.republicpg-progress-bar span {
+	height: 14px;
+	width: 0;
+	display: block;
+	background-color: #27CFC3;
+	border-radius: 300px 300px 300px 300px;
+	-webkit-border-radius: 300px 300px 300px 300px;
+}
+
+.republicpg-progress-bar p {
+	padding-bottom: 2px;
+}
+
+.republicpg-progress-bar span {
+	overflow: visible!important;
+	position: relative;
+}
+
+.republicpg-progress-bar span strong {
+	position: absolute;
+	right: -0px;
+	top: -23px;
+	line-height: 12px!important;
+	font-size: 11px!important;
+	opacity: 0;
+	display: block;
+	font-weight: normal!important;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+.republicpg-progress-bar span strong i {
+	font-style: normal!important;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	letter-spacing: 0!important;
+	text-transform: none!important;
+}
+
+.republicpg-progress-bar .bar-wrap span strong,
+.republicpg-progress-bar .bar-wrap span strong i {
+	font-size: 11px!important;
+	line-height: 12px!important;
+}
+
+.republicpg-progress-bar span strong.full:after {
+	left: 15px;
+}
+
+.republicpg-progress-bar span strong.full {
+	width: 43px;
+	text-align: right;
+}
+
+body .vc_pie_chart .vc_pie_chart_value {
+	font-size: 42px;
+	font-family: 'Open Sans';
+	font-weight: 300;
+}
+
+body .vc_pie_chart .wpb_pie_chart_heading {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-top: 12px;
+	margin-bottom: 0;
+	letter-spacing: 2px;
+}
+
+body .vc_pie_chart_back {
+	border-width: 7px;
+	opacity: 0;
+}
+
+body .vc_pie_chart {
+	opacity: 1;
+}

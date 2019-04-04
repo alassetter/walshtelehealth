@@ -1,0 +1,56 @@
+/*!
+Theme Name: blueprint
+Theme URI: https://github.com/alassetter/blueprint
+Author: Rpg
+Author URI: https://republicpropertygroup.com
+Description: A wordpress Blueprint theme for RPG projects.
+Version: 10
+Text Domain: blueprint
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+*/
+/* ----------------------------------------------------------------------------
+
+1.  Variables
+2.  Mixins
+3.  Fonts
+3.  Theme Base - Browser Reset + Fonts
+4.  Find A Home - For Sites that include mapping
+5.  Globally Applied Styles
+6.  Animations
+7.  Header + Search Bar Styles
+8.  Main Content
+9.  Plugin Related Styles - Disable any not being used before deployment
+10. Page + Custom Page Layout Styles
+11. Shortcode Styles
+12. Footer Styles
+13. Sidebar Styles
+14. Blog + Pagination Styles
+15. Comment Styles
+16. General Form Styles
+17. Walsh Telehealth
+18. Style Guide - Work in progress to replace old version
+
+* ------------------------------------------------------------------------- */
+@charset "UTF-8";
+@import "variables/__variables";
+@import "mixins/__mixins-dir";
+@import "fonts/__fonts-dir";
+
+@import "theme-base/__theme-base-dir";
+// @import "find-a-home/__find-a-home-dir";
+@import "global/__global-dir";
+@import "animation/__animation-dir";
+@import "header/__header-dir";
+@import "main-content/__main-content-dir";
+@import "plugin-related/__plugin-related-dir";
+@import "page/__page-dir";
+@import "shortcode/__shortcode-dir";
+@import "footer/__footer-dir";
+@import "sidebar/__sidebar-dir";
+@import "blog/__blog-dir";
+// @import "comment/__comment-dir";
+@import "forms/__forms-dir";
+@import "telehealth/__telehealth";
+@import "style-guide/__style-guide-dir";

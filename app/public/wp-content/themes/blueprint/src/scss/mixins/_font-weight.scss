@@ -1,0 +1,38 @@
+@mixin font-weight($weight) {
+  $weights   : (
+    100: 100,
+    200: 200,
+    300: 300,
+    400: 400,
+    500: 500,
+    600: 600,
+    700: 700
+  );
+
+  $output    : $weight;
+  @if map-has-key($weights, $weight) {
+    $output: map-get($weights, $weight);
+  }
+
+  font-weight: $output;
+}
+
+// @include font-weight(100);
+
+$fws: (
+  100: 100,
+  200: 200,
+  300: 300,
+  400: 400,
+  500: 500,
+  600: 600,
+  700: 700
+);
+
+@mixin font-weight-list {
+  @each $name, $fw in $fws {
+    &-#{$name} {
+      font-weight: $fw;
+    }
+  }
+}

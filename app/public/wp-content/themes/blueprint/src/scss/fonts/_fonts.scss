@@ -1,0 +1,37 @@
+/*-------------------------------------------------------------------------*/
+/*	Fonts
+/*-------------------------------------------------------------------------*/
+
+/* Walsh Telehealth Fonts  ******************/
+
+@font-face {
+	font-family: 'Domaine Display Medium';
+	src        : url("/fonts/DomaineDisplay/DomaineDisplay-Medium.eot");
+	src        : url("/fonts/DomaineDisplay/DomaineDisplay-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/DomaineDisplay/DomaineDisplay-Medium.woff") format("woff"), url("fonts/DomaineDisplay/DomaineDisplay-Medium.woff2") format("woff2"), url("fonts/DomaineDisplay/DomaineDisplay-Medium.ttf") format("truetype"), url("fonts/DomaineDisplay/DomaineDisplay-Medium.svg#DomaineDisplay-Medium") format("svg");
+	font-style : normal;
+	font-weight: 500;
+}
+
+.domaine-display-medium-500 {
+	font-family: $domain-display-500;
+	font-weight: 500;
+	font-style : normal;
+}
+
+h3.vc_custom_heading.domaine-display-medium-500 {
+	font-family: "Domaine Display",'Times New Roman',Times,serif !important;
+	font-weight: 500 !important;
+	font-style : normal;
+}
+
+.museo-sans {
+	font-family: $museo-sans;
+	font-weight: 300;
+	font-style : normal;
+}
+
+h1.vc_custom_heading.vc_custom_1550004913467 {
+	font-family: $domain-display-500;
+	font-weight: 500;
+	font-style : normal;
+}

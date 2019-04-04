@@ -1,0 +1,31 @@
+@mixin txt-color-modifiers {
+	@each $name, $hex in $colors {
+		&-#{$name} {
+			color: $hex;
+		}
+	}
+}
+
+@mixin bg-color-modifiers {
+	@each $name, $hex in $colors {
+		&-#{$name} {
+			background-color: $hex;
+		}
+	}
+}
+
+@mixin ui-txt-color-modifiers {
+	@each $name, $hex in $ui-colors {
+		&-#{$name} {
+			color: $hex;
+		}
+	}
+}
+
+@mixin ui-bg-color-modifiers {
+	@each $name, $hex in $ui-colors {
+		&-#{$name} {
+			background-color: $hex;
+		}
+	}
+}

@@ -1,0 +1,55 @@
+/***************** MEJS ******************/
+.mejs-overlay-button,
+.mejs-overlay-loading {
+	display: none!important;
+}
+
+.home-wrap {
+	padding-top: 3em;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	position: relative;
+	z-index: 100;
+	background-color: #f8f8f8;
+}
+
+html:not(.js) .home-wrap {
+	padding-top: 0;
+}
+
+html.no-overflow-y {
+	overflow-y: hidden!important;
+}
+
+html.no-overflow-y body {
+	overflow-y: hidden;
+}
+
+.mobile-video-image {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	display: none;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+}
+
+.using-mobile-browser .mobile-video-image {
+	display: block;
+}
+
+.no-transform {
+	transform: inherit!important;
+	-webkit-transform: inherit!important;
+}
+
+.pp_loaderIcon span {
+	border: 3px solid #666;
+}

@@ -1,0 +1,21 @@
+/***************** Isotope ******************/
+.isotope-item {
+	z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+	pointer-events: none;
+	z-index: 1;
+}
+
+.isotope {
+	transition-property: height;
+}
+
+.isotope .isotope-item {
+	transition-property: transform,opacity;
+}
+
+.portfolio-items .col.no-transition {
+	transition-duration: 0s!important;
+}

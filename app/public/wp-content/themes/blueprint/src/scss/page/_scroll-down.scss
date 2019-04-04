@@ -1,0 +1,11 @@
+/***************** Scroll Down ******************/
+.scroll-down-wrap.hidden {
+	transform: translateY(55px);
+	-webkit-transform: translateY(55px);
+	opacity: 0;
+}
+
+.scroll-down-wrap {
+	transition: opacity 0.4s ease;
+	-webkit-transition: opacity 0.4s ease;
+}

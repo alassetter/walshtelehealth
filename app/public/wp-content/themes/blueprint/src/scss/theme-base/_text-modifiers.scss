@@ -1,0 +1,122 @@
+/*-------------------------------------------------------------------------*/
+/*	Text Modifiers
+/*-------------------------------------------------------------------------*/
+
+/* Text Modifiers  ******************/
+small {
+  font-size  : 14px!important;
+  line-height: 22px!important;
+}
+
+.tiny {
+  font-size  : 14px!important;
+  line-height: 22px!important;
+}
+
+.bold,
+b,
+strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
+
+caption,
+td,
+th {
+  font-weight: normal;
+  text-align : left;
+}
+
+dt {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  color      : #333;
+}
+
+dd {
+  padding-left: 20px;
+}
+
+/* Text Transforms  ******************/
+.capitalize {
+  text-transform: capitalize;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.transform-none {
+  text-transform: none;
+}
+
+/* Text Alignment  ******************/
+
+// Text alignment
+.align-left,
+.left-align,
+.text-left {
+  text-align: left;
+}
+
+.align-right,
+.right-align,
+.text-right {
+  text-align: right;
+}
+
+.align-center,
+.center,
+.center-align,
+.text-center {
+  text-align: center;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.alignleft {
+  float       : left;
+  margin-right: 15px;
+}
+
+.alignright {
+  float      : right;
+  margin-left: 15px;
+}
+
+.aligncenter {
+  display: block;
+  margin : 15px auto;
+}
+/* Truncate ******************/
+
+.truncate {
+  overflow     : hidden;
+  text-overflow: ellipsis;
+  white-space  : nowrap;
+}
+/* Tracking ******************/
+.tracking--loose {
+  letter-spacing: 0.05em;
+}
+
+.tracking--normal {
+  letter-spacing: 0;
+}
+
+.tracking--tight {
+  letter-spacing: -0.05em;
+}
