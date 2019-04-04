@@ -165,59 +165,84 @@ You can enable them by uncommenting them in the following locations:
 src/scss
 
 *SCSS Directory Location*
+
+```
 src/scss/style.scss
+```
 
 Below are the styles that are disabled by commenting them out. “//“ To make them active again simply remove the “//“ with in the appropriate file.
 
+
 *Animation*
+```
 src/scss/animation/__animation-dir.scss
+```
 
 *Blog*
+```
 src/scss /blog/__blog.scss
 // @import "blog-and-pagination";
 // @import "love";
+```
 
-Comments Styles
+*Comments Styles*
+```
 src/scss/comment/__comment-dir.scss
 // @import "comments";
+```
 
 *Find A Home*
+```
 src/scss /find-a-home/__find-a-home.scss
 // @import "find-a-home-map";
+```
 
 *Fonts*
+```
 src/scss/fonts/__fonts-dir.scss
 // @import "typekit";
 @import "fonts";
 @import "font-icomoon";
 @import "font-linecons";
 @import "font-steadysets";
+```
 
 *Footer*
-__footer-dir.scss
+```
+src/scss/footer/__footer-dir.scss
 // @import "footer-elements";
+```
 
 *Forms*
+```
 src/scss/forms/__forms-dir.scss
 @import "general-forms";
 @import "minimal-forms";
 @import "selects";
 @import "tables";
 @import "minimal-icons";
+```
 
 *Global*
+```
 src/scss/global/__global-dir.scss
 @import "global";
 @import "type";
+```
 
 *Header*
+```
 src/scss/header/__header-dir.scss
 @import "header";
+```
 
 *Main*
+```
 src/scss/main-content/__main-content-dir.scss
+```
 
 *Mixins*
+```
 src/scss/mixins/__mixins-dir.scss
 @import "fluid-type";
 @import "font-family"; // @include din-2014-300;
@@ -228,8 +253,10 @@ src/scss/mixins/__mixins-dir.scss
 @import "spacer"; // @include fontSmoothing();
 @import "mq";
 @import "link-styles";
+```
 
 *Page*
+```
 src/scss/page/__page-dir.scss
 @import "page-header";
 @import "single";
@@ -255,8 +282,10 @@ src/scss/page/__page-dir.scss
 // @import "google-map";
 @import "masonry-items";
 @import "post-area";
+```
 
 *Plugin Related*
+```
 src/scss /plugin-related/__plugin-related-dir.scss
 @import "superfish";
 @import "mejs";
@@ -280,8 +309,10 @@ src/scss /plugin-related/__plugin-related-dir.scss
 // @import "blog-recent";
 // @import "owl-carousel";
 @import "scrollbar";
+```
 
 *Shortcode*
+```
 src/scss /shortcode/__shortcode.scss
 @import "icons";
 @import "animated-title";
@@ -310,23 +341,29 @@ src/scss /shortcode/__shortcode.scss
 // @import "search-widget";
 @import "footer-widgets";
 // @import "call-to-action";
+```
 
 *Side Bar*
+```
 src/scss/sidebar/__sidebar-dir.scss
 // @import "sidebar.scss";
-
+```
 *Style-guide*
+```
 src/scss /style-guide/__style-guide.scss
 // @import "table";
 // @import "color-swatches";
 // @import "shadow-type";
 // @import "spacing-scales";
+```
 
 *Telehealth*
+```
 src/scss/telehealth/__telehealth.scss
-
+```
 
 *Theme Base Styles*
+```
 src/scss/theme-base/__theme-base-dir.scss
 @import "browser";
 @import "colors";
@@ -342,8 +379,10 @@ src/scss/theme-base/__theme-base-dir.scss
 @import "utility";
 // @import "spacing";
 // @import "shadows";
+```
 
 *Variables*
+```
 src/scss/variables/__variables.scss
 @import "colors";
 @import "color-map";
@@ -351,3 +390,4 @@ src/scss/variables/__variables.scss
 @import "forms";
 @import "spacing";
 // @import "widths";
+```
